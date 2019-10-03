@@ -5,6 +5,7 @@ fun! s:suite.__define__()
   let define = themis#suite('define')
 
   fun! define.begins_mappings_with_leader()
+    unlet g:which_key_map
     call joeconf#mapping#define("nmap", "a", "<C-q>", "test description")
     call s:expect(maparg("<Leader>a", "n")).to_equal("<C-Q>")
     call s:expect(exists("g:which_key_map")).to_be_falsy()
@@ -40,9 +41,14 @@ endfun
 fun! s:suite.__group__()
   let group = themis#suite("group")
 
-  fun! group.writes_to_which_key_map()
+  fun! group.writes_to_which_key_map_with_prefix()
     call joeconf#mapping#group("a", "test")
     call s:expect(g:which_key_map.a).to_have_key("name")
-    call s:expect(g:which_key_map.a.name).to_equal("test")
+    call s:expect(g:which_key_map.a.name).to_equal("+test")
+  endfun
+
+  fun!group.does_not_duplicate_existing_prefix()
+    call joeconf#mapping#group("a", "+test")
+    call s:expect(g:which_key_map.a.name).to_equal("+test")
   endfun
 endfun
