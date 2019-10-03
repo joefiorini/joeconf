@@ -3,7 +3,7 @@ function! joeconf#bootstrap()
 endfunction
 
 function! joeconf#reload()
-  for script in split(glob(g:joeconf.config_path . "/**/*.vim"))
+  for script in split(glob(expand("<spath>:h") . "/joeconf/**/*.vim"))
     if script !~ "\.test\.vim"
       exe 'source' script
     endif

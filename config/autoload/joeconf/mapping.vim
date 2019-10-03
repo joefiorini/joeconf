@@ -5,12 +5,18 @@ endfunction
 
 function! joeconf#mapping#group(key, name)
   if !exists("g:which_key_map")
-    let g:which_key_map = {}
+    let key_map = {}
+  else
+    let key_map = deepcopy(g:which_key_map)
   endif
+
+  let keys = split(a:key, '\zs')
 
   let name = a:name !~ "^+" ? "+" . a:name : a:name
 
-  let g:which_key_map[a:key] = { "name": name }
+  call extend(keys, ['name'])
+
+  let g:which_key_map = joeutil#set_deep(key_map, keys, name)
 endfunction
 
 function! joeconf#mapping#define(type, key, value, desc)

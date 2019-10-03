@@ -2,6 +2,7 @@ fun! joeconf#mapping#basic#init()
   call joeconf#mapping#basic#files()
   call joeconf#mapping#basic#search()
   call joeconf#mapping#basic#user()
+  call joeconf#mapping#basic#git()
 endfun
 
 
@@ -34,7 +35,16 @@ fun! joeconf#mapping#basic#user()
   call joeconf#mapping#group("us", "Shell-config")
   call joeconf#mapping#group("ug", "Git-config")
   call joeconf#mapping#define("nnoremap <silent>", "uce", ":EditVimConfig<cr>", "Edit Vim config")
-  call joeconf#mapping#define("nnoremap <silent>", "ucr", "call joeconf#reload()<cr>", "Reload Vim config")
-  call joeconf#mapping#define("nnoremap <silent>", "use", ":tabe ~/.config/fish/config.fish", "Edit Fish config")
-  call joeconf#mapping#define("nnoremap <silent>", "uge", ":tabe ~/.gitconfig", "Edit Git config")
+  call joeconf#mapping#define("nnoremap <silent>", "ucr", ":call joeconf#reload()<cr>", "Reload Vim config")
+  call joeconf#mapping#define("nnoremap <silent>", "use", ":tabe ~/.config/fish/config.fish<CR>", "Edit Fish config")
+  call joeconf#mapping#define("nnoremap <silent>", "uge", ":tabe ~/.gitconfig<CR>", "Edit Git config")
+endfun
+
+fun! joeconf#mapping#basic#git()
+  call joeconf#mapping#group("g", "Git")
+  call joeconf#mapping#define("nnoremap <silent>", "gs", ":Gina status --group=git --opener='botright split'<CR>", "Status")
+  call joeconf#mapping#group("gc", "Commit")
+  call joeconf#mapping#define("nnoremap <silent>", "gcc", ":Gina commit --group=git --opener='botright split'<CR>", "Commit")
+  call joeconf#mapping#define("nnoremap <silent>", "gca", ":Gina commit --amend --group=git --opener='botright split'<CR>", "Amend")
+  call joeconf#mapping#define("nnoremap <silent>", "gb", ":Gina browse<CR>", "Browse current file")
 endfun

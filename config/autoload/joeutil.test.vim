@@ -58,4 +58,7 @@ fun! s:suite.set_deep_new_key_path_as_list()
   call s:assert.equals({"a": { "b": 2, "c": 1}}, actual)
 endfunction
 
-
+fun! s:suite.set_array_single_level()
+  let actual = joeutil#set_deep({}, ['a', 'name'], '+test')
+  call s:assert.equals({ "a": { "name": "+test" } }, actual)
+endfun
