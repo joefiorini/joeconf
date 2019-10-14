@@ -3,3 +3,6 @@
 	url = https://github.com/anishathalye/dotbot
 [submodule "dotbot"]
 	ignore = dirty
+[submodule "private"]
+	path = private
+	url = git@github.com:joefiorini/joeconf-private
