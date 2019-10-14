@@ -1,1 +1,3 @@
 nvim/undo
+# Some vim plugins write to pycache
+__pycache__

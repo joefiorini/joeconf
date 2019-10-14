@@ -1,3 +1,5 @@
 - shell:
-        - - nvim -c 'PlugClean!' -c 'PlugInstall' -c 'q' -c 'q'
+        - - nvim -c 'PlugClean!' -c 'PlugInstall' -c 'UpdateRemotePlugins' -c 'q' -c 'q'
           - Installing Vim plugins
+        - - "pip install --user neovim"
+          - Installing Python NeoVim plugin
