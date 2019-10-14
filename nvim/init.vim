@@ -17,7 +17,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 " vim-tsx will do all the coloring for jsx in the .tsx file
 "Plug 'peitalin/vim-jsx-typescript'
 
-Plug '/src/shades-of-purple.vim'
+Plug 'Rigellute/shades-of-purple.vim'
 
 Plug 'cloudhead/neovim-fuzzy'
 
@@ -50,9 +50,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 
 Plug 'liuchengxu/vim-which-key'
 
-Plug '/src/salvor.nvim'
+Plug 'joefiorini/salvor.nvim'
 
-Plug '/src/vim-illuminate'
+Plug 'RRethy/vim-illuminate'
 let config_plugin_path = expand('<sfile>:h') . "/config.d"
 Plug config_plugin_path
 
