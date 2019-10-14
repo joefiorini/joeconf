@@ -1,0 +1,3 @@
+- shell:
+        - - nvim -c 'PlugClean!' -c 'PlugInstall' -c 'q' -c 'q'
+          - Installing Vim plugins

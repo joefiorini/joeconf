@@ -674,3 +674,22 @@ function! s:makeComponentFolder()
 endfunc
 
 command! -nargs=0 MakeComponentFolder :call s:makeComponentFolder()
+
+fun! CompleteEcur(argLead, cmdLine, cursorPos)
+  let base_dir = expand("%:p:h")
+  let pattern = base_dir . "/" . is_directory(base_dir . "/" . argLead) ? argLead : "*"
+  let files = glob(base_dir . "/*", v:false, v:true)
+  call map(files, {idx -> fnamemodify(files[idx], ":t")})
+  return files
+endfun
+
+command! -nargs=1 -complete=customlist,CompleteEcur Ecur exec "e " . expand("%:p:h") . "/" . <args>
+command! -nargs=0 Mkdirc exec "!mkdir " . expand("%:p:h") . "/"
+command! -nargs=0 Srcc exec "source " . expand("%")
+
+if has("nvim")
+	command! W w !sudo -n tee % > /dev/null || echo "Press <leader>w to authenticate and try again"
+	map <leader>w :new<cr>:term sudo true<cr>
+else
+	command! W w !sudo tee % > /dev/null
+end
