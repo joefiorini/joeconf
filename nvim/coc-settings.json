@@ -1,0 +1,59 @@
+{
+  "suggest.autoTrigger": "always",
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx"],
+  "eslint.packageManager": "yarn",
+  "eslint.trace.server": "verbose",
+  "suggest.echodocSupport": true,
+  "suggest.timeout": 500,
+  "suggest.acceptSuggestionOnCommitCharacter": true,
+  "project.enable": true,
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "css", "json", "javascript", "graphql", "markdown", "typescript.tsx", "reason"],
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "jest.terminalPosition": "bottom",
+  "list.source.grep.useLiteral": false,
+  "list.source.grep.command": "rg",
+  "list.source.grep.args": ["--color","always"],
+  "coc.source.file.trimSameExts": [".ts", ".js", ".tsx"],
+  "coc.source.file.triggerCharacters": ["/", "./"],
+  "coc.source.around.enable": false,
+  "coc.source.buffer.enable": false,
+  "session.restartOnSessionLoad": true,
+  "typescript.preferences.importModuleSpecifier": "auto",
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine"
+  },
+  "git.enableGutters": false,
+  "languageserver": {
+    "reason": {
+      "command": "/opt/bin/reason-language-server",
+      "filetypes": ["reason"],
+      "settings": {
+        "per_value_codelens": true,
+        "dependencies_codelens": true,
+        "opens_codelens": true
+      }
+    },
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "objc", "objcpp"],
+      "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+            "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        },
+        "clang": {
+          "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0",
+          "extraArgs": [
+            "-isystem",
+            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+            "-I",
+            "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"        
+          ]
+        }
+      },
+    }
+  }
+}
