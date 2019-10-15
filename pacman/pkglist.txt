@@ -10,6 +10,7 @@ binutils
 bison
 broadcom-wl
 btrfs-progs
+ccls
 chromium-ozone
 cronie
 dex
