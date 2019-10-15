@@ -224,7 +224,8 @@ let g:my_filetype_icons = {
       \ "gina-status": "",
       \ "gina-merge": "",
       \ "gina-rebase": "",
-      \ "help": "ﲉ"
+      \ "help": "ﲉ",
+      \ "fish": ""
       \}
 
 function! s:GetFiletypeIcon()
