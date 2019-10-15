@@ -5,4 +5,5 @@
       description: Installing root's incrontab
     - command: test -f incron/root.incrontab && incrontab incron/root.incrontab; true
       description: Installing root's incrontab
+    - command: test -f incron/joe.incrontab && sudo -u joe incron/joe.incrontab; true
 
