@@ -1,5 +1,6 @@
 - shell:
-        - - nvim -c 'PlugClean!' -c 'PlugInstall' -c 'UpdateRemotePlugins' -c 'q' -c 'q'
-          - Installing Vim plugins
-        - - "pip install --user neovim"
-          - Installing Python NeoVim plugin
+      - command: nvim -c 'PlugClean!' -c 'PlugInstall' -c 'UpdateRemotePlugins' -c 'q' -c 'q'
+        description: Installing Vim plugins
+      - command: test -x ""(which pip)""; and pip install --user neovim; true
+        description: Installing Python NeoVim plugin
+      - command: test -x ""(which pip3)""; and pip3 install --user neovim; true
