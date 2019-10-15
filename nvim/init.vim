@@ -52,6 +52,8 @@ Plug 'liuchengxu/vim-which-key'
 
 Plug 'joefiorini/salvor.vim'
 
+Plug 'dag/vim-fish'
+
 Plug 'RRethy/vim-illuminate'
 let config_plugin_path = expand('<sfile>:h') . "/config.d"
 Plug config_plugin_path
