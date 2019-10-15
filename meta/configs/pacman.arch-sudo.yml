@@ -1,0 +1,7 @@
+- link:
+    /etc/pkglist.txt: pacman/pkglist.txt
+- shell:
+    - command: pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort /etc/pkglist.txt))
+      description: Install arch packages
+      stdout: true
+      stdin: true

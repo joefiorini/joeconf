@@ -1,0 +1,2 @@
+/etc/incron.d	IN_MOVE		incrontab -l > /src/joeconf/incron/system.incrontab
+/var/spool/incron	IN_MODIFY,IN_MOVE	incrontab -l > /src/joeconf/incron/$#.incrontab1

@@ -1,0 +1,8 @@
+- link:
+    /etc/incron.conf: incron/incron.conf
+- shell:
+    - command: test -f incron/system.incrontab && incrontab incron/system.incrontab; true
+      description: Installing root's incrontab
+    - command: test -f incron/root.incrontab && incrontab incron/root.incrontab; true
+      description: Installing root's incrontab
+
