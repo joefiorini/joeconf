@@ -1,21 +1,30 @@
 #!/usr/bin/env fish
 
-set -l base_dir (git rev-parse --show-toplevel)
-set -l changes (git status --porcelain ../pacman/pkglist.txt)
+echo "i ran in ""(pwd)""" > /src/joeconf/blah.txt
+notify-send -i dialog-information-symbolic.symbolic "Checking for pacman updates"
+echo "line 5" >> /src/joeconf/blah.txt
+set -l base_dir /src/joeconf
+cd $base_dir
+set -l changes (git status --porcelain pacman/pkglist.txt)
 
 if test -z $changes
+  echo "line 10" >> $base_dir/blah.txt
   exit 0
 end
 
+echo "line 13" >> /src/joeconf/blah.txt
 git add $base_dir/pacman/pkglist.txt
 
 git commit -m "Updating pacman packages..."
 git push 2> ~/.local/var/log/push-pkglist.log
 
-if !$status
+echo "line 19" >> /src/joeconf/blah.txt
+if test ! $status -eq 0
   notify-send -i dialog-warning-symbolic.symbolic "Failed to push pacman updates"
+echo "line 22" >> /src/joeconf/blah.txt
   exit 1
 else
+echo "line 25" >> /src/joeconf/blah.txt
   notify-send -i dialog-information-symbolic.symbolic "Pushed pacman updates"
   exit 0
 end

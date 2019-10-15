@@ -1,5 +1,6 @@
 - link:
     /etc/pkglist.txt: pacman/pkglist.txt
+    /etc/pacman.d/hooks/packagelist.hook: pacman/packagelist.hook
 - shell:
     - command: pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort /etc/pkglist.txt))
       description: Install arch packages
