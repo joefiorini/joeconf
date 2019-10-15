@@ -1,4 +1,5 @@
 1password-cli
+abook
 alsa-utils
 archlinux-wallpaper
 autoconf
