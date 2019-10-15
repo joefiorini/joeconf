@@ -50,7 +50,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 
 Plug 'liuchengxu/vim-which-key'
 
-Plug 'joefiorini/salvor.nvim'
+Plug 'joefiorini/salvor.vim'
 
 Plug 'RRethy/vim-illuminate'
 let config_plugin_path = expand('<sfile>:h') . "/config.d"
