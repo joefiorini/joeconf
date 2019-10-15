@@ -1,5 +1,4 @@
 1password-cli
-abook
 alsa-utils
 archlinux-wallpaper
 autoconf
@@ -12,6 +11,7 @@ bison
 broadcom-wl
 btrfs-progs
 chromium-ozone
+cronie
 dex
 dhcpcd
 dialog
@@ -55,6 +55,7 @@ sudo
 sway
 swayidle
 swaylock
+syslog-ng
 termite
 texinfo
 the_silver_searcher
