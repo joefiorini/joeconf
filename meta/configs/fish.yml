@@ -1,3 +1,5 @@
 - link:
     ~/.config/fish: fish/config
-    ~/.config/fisher: fish/fisher
+- shell:
+    - - fisher
+      - Install fisher packages

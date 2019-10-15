@@ -1,19 +1,18 @@
 function fish_right_prompt
+  set __fish_git_prompt_show_informative_status yes
+  set __fish_git_prompt_showdirtystate yes
+  set __fish_git_prompt_showstashstate yes
+  set __fish_git_prompt_color_branch green
 
-	# ------------------------------------------------------------------------------
-	# Configuration
-	# ------------------------------------------------------------------------------
+  set __fish_git_prompt_char_stagedstate '[38;5;037m+'
+  set __fish_git_prompt_char_dirtystate '[38;5;160m!'
 
-	__sf_util_set_default SPACEFISH_RPROMPT_ORDER ""
+  set __fish_git_prompt_char_upstream_ahead '↑'
+  set __fish_git_prompt_char_upstream_behind '↓'
 
-	# ------------------------------------------------------------------------------
-	# Sections
-	# ------------------------------------------------------------------------------
-
-	[ -n "$SPACEFISH_RPROMPT_ORDER" ]; or return
-
-	for i in $SPACEFISH_RPROMPT_ORDER
-		eval __sf_section_$i
-	end
-	set_color normal
+  if git_is_repo
+    set_color green
+    printf '%s' (__fish_git_prompt)
+    set_color normal
+  end
 end
