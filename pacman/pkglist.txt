@@ -8,6 +8,7 @@ bcwc-pcie-git
 bemenu-git
 binutils
 bison
+bluez
 broadcom-wl
 btrfs-progs
 ccls
