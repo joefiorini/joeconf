@@ -55,6 +55,7 @@ pulseaudio-alsa
 python-pip
 ripgrep
 rua
+slack-term
 spotify
 sudo
 sway
