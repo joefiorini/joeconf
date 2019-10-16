@@ -76,4 +76,5 @@ wofi-hg
 wpa_supplicant
 xdg-user-dirs
 xorg-server-xwayland
+xorg-xev
 yarn
