@@ -61,6 +61,7 @@ termite
 texinfo
 the_silver_searcher
 ttf-material-design-icons-git
+unzip
 upower
 waybar
 weston
