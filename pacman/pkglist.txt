@@ -55,6 +55,7 @@ pulseaudio-alsa
 python-pip
 ripgrep
 rua
+spotify
 sudo
 sway
 swayidle
