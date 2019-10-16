@@ -63,6 +63,7 @@ the_silver_searcher
 ttf-material-design-icons-git
 upower
 waybar
+weston
 which
 wl-clipboard
 wofi-hg
