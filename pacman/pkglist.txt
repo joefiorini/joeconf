@@ -9,6 +9,7 @@ bemenu-git
 binutils
 bison
 bluez
+bluez-utils
 broadcom-wl
 btrfs-progs
 ccls
