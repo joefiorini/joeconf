@@ -1,0 +1,6 @@
+- link:
+    ~/.fonts/DankMono-Regular-nfc.otf: "private/fonts/DankMono-Regular-nfc.otf"
+    ~/.fonts/DankMono-Italic-nfc.otf: "private/fonts/DankMono-Italic-nfc.otf"
+    ~/.fonts:
+      glob: true
+      path: fonts/*

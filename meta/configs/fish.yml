@@ -1,5 +1,5 @@
 - link:
     ~/.config/fish: fish/config
 - shell:
-    - - fisher
-      - Install fisher packages
+    - command: fisher; true
+      description: Install fisher packages

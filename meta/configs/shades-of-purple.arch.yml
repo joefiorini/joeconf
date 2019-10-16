@@ -1,0 +1,5 @@
+- link:
+    ~/.config/termite/config: shades-of-purple/termite
+    ~/.Xdefaults: shades-of-purple/Xresources
+    ~/.Xresources: shades-of-purple/Xresources
+    ~/.config/waybar/style.css: shades-of-purple/waybar.css

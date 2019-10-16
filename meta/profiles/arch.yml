@@ -1,5 +1,7 @@
 neovim
 neovim.shared
-fish
+#fish
 git
-fonts.linux
+termite.arch
+shades-of-purple.arch
+fonts.arch
