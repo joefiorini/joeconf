@@ -51,6 +51,7 @@ patch
 pkgconf
 pulseaudio-alsa
 python-pip
+ripgrep
 rua
 sudo
 sway
