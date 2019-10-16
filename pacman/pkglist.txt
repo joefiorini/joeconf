@@ -53,6 +53,7 @@ patch
 pkgconf
 pulseaudio-alsa
 python-pip
+python-websocket-client
 ripgrep
 rua
 slack-term
