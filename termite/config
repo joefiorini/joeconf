@@ -2,7 +2,7 @@
 font = DankMono Nerd Font 10
 
 [colors]
-background = rgba(30,29,64,1)
+background = rgba(30,29,64,0.8)
 foreground = #ffffff
 foreground_bold = #f9fdff
 cursor = #fad000
