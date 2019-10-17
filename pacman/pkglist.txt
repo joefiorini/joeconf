@@ -82,6 +82,7 @@ weechat
 weston
 which
 wl-clipboard
+wlrobs-hg
 wofi-hg
 wpa_supplicant
 xdg-desktop-portal
