@@ -23,6 +23,7 @@ elvish
 fakeroot
 firefox
 fish
+flatpak
 flex
 font-manager
 fzf
