@@ -84,6 +84,7 @@ which
 wl-clipboard
 wofi-hg
 wpa_supplicant
+xdg-desktop-portal
 xdg-user-dirs
 xorg-server-xwayland
 xorg-xev
