@@ -50,6 +50,7 @@ netctl
 openssh
 pamixer
 patch
+pavucontrol
 pkgconf
 plymouth
 plymouth-theme-aperture-git
