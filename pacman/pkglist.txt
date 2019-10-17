@@ -51,6 +51,7 @@ openssh
 pamixer
 patch
 pkgconf
+plymouth
 pulseaudio-alsa
 python-pip
 python-websocket-client
