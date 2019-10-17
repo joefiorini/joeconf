@@ -19,6 +19,7 @@ dex
 dhcpcd
 dialog
 docker
+docker-compose
 elinks
 elvish
 fakeroot
