@@ -59,6 +59,7 @@ python-websocket-client
 ranger
 ripgrep
 rua
+slack-desktop
 slack-term
 spotify
 sudo
