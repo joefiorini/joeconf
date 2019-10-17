@@ -47,6 +47,7 @@ neofetch
 neovim
 nerd-fonts-complete
 netctl
+obs-gnome-screencast
 obs-studio
 openssh
 pamixer
