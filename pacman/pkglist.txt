@@ -67,6 +67,7 @@ ripgrep
 rua
 slack-desktop
 slack-term
+slurp
 spotify
 sudo
 sway
