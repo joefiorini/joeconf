@@ -54,6 +54,7 @@ pkgconf
 pulseaudio-alsa
 python-pip
 python-websocket-client
+ranger
 ripgrep
 rua
 slack-term
