@@ -81,6 +81,7 @@ ttf-material-design-icons-git
 unicode-emoji
 unzip
 upower
+v4l2loopback-dkms-git
 waybar
 weechat
 weston
