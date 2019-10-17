@@ -47,6 +47,7 @@ neofetch
 neovim
 nerd-fonts-complete
 netctl
+obs-studio
 openssh
 pamixer
 patch
