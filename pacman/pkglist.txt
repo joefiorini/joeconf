@@ -82,6 +82,7 @@ upower
 waybar
 weechat
 weston
+wf-recorder-git
 which
 wl-clipboard
 wlrobs-hg
