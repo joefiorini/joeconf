@@ -48,6 +48,7 @@ neofetch
 neovim
 nerd-fonts-complete
 netctl
+notify-desktop-git
 obs-gnome-screencast
 obs-studio
 opencl-headers
