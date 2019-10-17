@@ -50,6 +50,7 @@ nerd-fonts-complete
 netctl
 obs-gnome-screencast
 obs-studio
+opencl-headers
 openssh
 pamixer
 patch
