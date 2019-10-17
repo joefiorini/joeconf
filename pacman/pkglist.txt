@@ -29,6 +29,7 @@ flatpak
 flex
 font-manager
 fzf
+fzy
 gcc
 gnome-font-viewer
 google-chrome
