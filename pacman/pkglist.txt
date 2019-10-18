@@ -3,6 +3,7 @@ alsa-utils
 archlinux-wallpaper
 autoconf
 automake
+autotiling
 aws-cli
 base
 bcwc-pcie-git
