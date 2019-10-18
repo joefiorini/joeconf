@@ -67,6 +67,7 @@ plymouth-theme-aperture-git
 pulseaudio-alsa
 python-pip
 python-websocket-client
+qt5-wayland
 ranger
 ripgrep
 rua
