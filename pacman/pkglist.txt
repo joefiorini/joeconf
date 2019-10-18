@@ -74,6 +74,7 @@ qt5-wayland
 ranger
 ripgrep
 rua
+ruby
 slack-desktop
 slack-term
 slurp
