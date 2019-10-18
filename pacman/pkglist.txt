@@ -94,6 +94,7 @@ weston
 wf-recorder-git
 which
 wl-clipboard
+wld-git
 wlrobs-hg
 wofi-hg
 wpa_supplicant
