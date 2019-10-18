@@ -32,6 +32,7 @@ font-manager
 fzf
 fzy
 gcc
+glfw-wayland
 gnome-font-viewer
 google-chrome
 hub
