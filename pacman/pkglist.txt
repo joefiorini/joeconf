@@ -73,6 +73,7 @@ python-pip
 python-websocket-client
 qt5-wayland
 ranger
+reflector
 ripgrep
 rua
 ruby
