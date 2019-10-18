@@ -113,3 +113,4 @@ xdg-user-dirs
 xorg-server-xwayland
 xorg-xev
 yarn
+zopfli
