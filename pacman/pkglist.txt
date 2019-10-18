@@ -69,6 +69,7 @@ pkgconf
 plymouth
 plymouth-theme-aperture-git
 pulseaudio-alsa
+python-booleanoperations
 python-pip
 python-unicodedata2
 python-websocket-client
