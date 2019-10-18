@@ -62,6 +62,7 @@ obs-gnome-screencast
 obs-studio
 opencl-headers
 openssh
+optipng
 pacman-contrib
 pamixer
 patch
