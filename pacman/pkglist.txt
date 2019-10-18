@@ -34,6 +34,7 @@ fzy
 gcc
 glfw-wayland
 gnome-font-viewer
+gnu-netcat
 google-chrome
 grim
 hub
