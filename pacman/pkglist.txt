@@ -70,6 +70,7 @@ plymouth
 plymouth-theme-aperture-git
 pulseaudio-alsa
 python-pip
+python-unicodedata2
 python-websocket-client
 qt5-wayland
 ranger
