@@ -61,6 +61,7 @@ obs-gnome-screencast
 obs-studio
 opencl-headers
 openssh
+pacman-contrib
 pamixer
 patch
 pavucontrol
