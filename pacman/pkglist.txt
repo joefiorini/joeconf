@@ -47,7 +47,6 @@ linux-firmware
 m4
 macbook-lighter
 make
-makeheaders
 mako
 man-db
 neofetch
