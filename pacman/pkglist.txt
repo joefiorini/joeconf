@@ -75,6 +75,7 @@ ranger
 ripgrep
 rua
 ruby
+ruby-bundler
 slack-desktop
 slack-term
 slurp
