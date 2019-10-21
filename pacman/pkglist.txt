@@ -39,6 +39,7 @@ gnu-netcat
 google-chrome
 grim
 hub
+ical2rem
 imagemagick
 incron
 inetutils
