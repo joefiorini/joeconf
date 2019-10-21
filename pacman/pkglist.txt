@@ -80,6 +80,7 @@ python-websocket-client
 qt5-wayland
 ranger
 reflector
+remind
 ripgrep
 rua
 ruby
