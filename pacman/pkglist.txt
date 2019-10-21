@@ -43,6 +43,7 @@ imagemagick
 incron
 inetutils
 intel-ucode
+khal
 libnotify
 libtool
 linux
