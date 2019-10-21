@@ -99,6 +99,7 @@ unicode-emoji
 unzip
 upower
 v4l2loopback-dkms-git
+vdirsyncer
 waybar
 weechat
 weston
