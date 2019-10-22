@@ -33,6 +33,7 @@ font-manager
 fzf
 fzy
 gcc
+gist
 glfw-wayland
 gnome-font-viewer
 gnu-netcat
