@@ -8,9 +8,16 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 " coc extensions
-let g:coc_global_extensions = ['coc-eslint', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier', 'coc-import-cost', 'coc-svg', 'coc-gitignore', 'coc-lists', 'coc-snippets', 'coc-git', 'coc-pairs', 'coc-marketplace', 'coc-stylelint', 'coc-jest', 'coc-project', 'coc-vimlsp', 'coc-rls']
+let g:coc_global_extensions = ['coc-eslint', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier', 'coc-import-cost', 'coc-svg', 'coc-gitignore', 'coc-lists', 'coc-snippets', 'coc-git', 'coc-marketplace', 'coc-stylelint', 'coc-jest', 'coc-project', 'coc-vimlsp', 'coc-rls']
 
-Plug 'HerringtonDarkholme/yats.vim'
+"Plug 'HerringtonDarkholme/yats.vim' 
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'leafgarland/typescript-vim'
+
+Plug 'tmsvg/pear-tree'
+
+Plug 'mbbill/undotree'
+Plug 'chaoren/vim-wordmotion'
 
 "------------------------ VIM TSX ------------------------
 " by default, if you open tsx file, neovim does not show syntax colors
@@ -58,6 +65,8 @@ Plug 'RRethy/vim-illuminate'
 let config_plugin_path = expand('<sfile>:h') . "/config.d"
 Plug config_plugin_path
 
+Plug 'WolfgangMehner/c-support'
+
 Plug 'reasonml-editor/vim-reason-plus'
 Plug 'airblade/vim-gitgutter'
 Plug 'godlygeek/tabular'
@@ -70,6 +79,7 @@ Plug 'thinca/vim-themis'
 
 Plug 'svermeulen/nvim-marksman', { 'do': ':UpdateRemotePlugins'}
 Plug 'lambdalisue/gina.vim'
+Plug 'lambdalisue/suda.vim'
 
 Plug 'rhysd/git-messenger.vim'
 
@@ -384,6 +394,7 @@ inoremap <C-a> <Home>
 inoremap <C-e> <End>
 inoremap <C-d> <Delete>
 " Command mode shortcut
+" 
 cnoremap <C-h> <BS>
 cnoremap <C-j> <Down>
 cnoremap <C-k> <Up>
@@ -471,8 +482,8 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-nmap <leader>ac <Plug>(coc-codeaction)
-nmap <leader>qf <Plug>(coc-fix-current)
+nmap <localleader>ac <Plug>(coc-codeaction)
+nmap <localleader>qf <Plug>(coc-fix-current)
 
 " Use <tab> for select selections ranges, needs server support, like: coc-tsserver, coc-python
 nmap <silent> <TAB> <Plug>(coc-range-select)
@@ -486,6 +497,10 @@ xmap <silent> af <Plug>(coc-funcobj-a)
 " Expand current file's directory in command line
 cnoremap %% <C-R>=expand("%:h")<cr>/
 
+let g:pear_tree_smart_openers = v:true
+let g:pear_tree_smart_closers = v:true
+let g:pear_tree_smart_backspace = v:true
+
 call which_key#register('<Space>', 'g:which_key_map')
 nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>
 vnoremap <silent> <leader> :<c-u>WhichKeyVisual '<Space>'<CR>
@@ -496,23 +511,16 @@ let g:which_key_map =  {}
 
 " Using CocList
 " Show all diagnostics
-nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
-" Manage extensions
-nnoremap <silent> <space>e  :<C-u>CocList extensions<cr>
-" Show commands
-nnoremap <silent> <space>cd  :<C-u>CocList commands<cr>
+nnoremap <silent> <localleader>cd  :<C-u>CocList diagnostics<cr>
 " Find symbol of current document
-nnoremap <silent> <space>co  :<C-u>CocList outline<cr>
+nnoremap <silent> <localleader>co  :<C-u>CocList outline<cr>
 " Search workspace symbols
-nnoremap <silent> <space>cs  :<C-u>CocList -I symbols<cr>
+nnoremap <silent> <localleader>cs  :<C-u>CocList -I symbols<cr>
 " Do default action for next item.
-nnoremap <silent> <space>j  :<C-u>CocNext<CR>
+nnoremap <silent> <localleader>j  :<C-u>CocNext<CR>
 " Do default action for previous item.
-nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
+nnoremap <silent> <localleader>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
-nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
-nnoremap <silent> <space>m  :<C-u>CocList mru<CR>
-nnoremap <silent> <leader>o  :<C-u>CocList mru<CR>
 
 command! -nargs=+ -complete=custom,s:GrepArgs Ag exe 'CocList -I grep '.<q-args>
 
@@ -689,10 +697,3 @@ endfun
 command! -nargs=1 -complete=customlist,CompleteEcur Ecur exec "e " . expand("%:p:h") . "/" . <args>
 command! -nargs=0 Mkdirc exec "!mkdir " . expand("%:p:h") . "/"
 command! -nargs=0 Srcc exec "source " . expand("%")
-
-if has("nvim")
-	command! W w !sudo -n tee % > /dev/null || echo "Press <leader>w to authenticate and try again"
-	map <leader>w :new<cr>:term sudo true<cr>
-else
-	command! W w !sudo tee % > /dev/null
-end

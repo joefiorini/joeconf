@@ -2,12 +2,15 @@
 "
 call joeconf#mapping#group("f", "+Files/Fold")
 
+
 call joeconf#mapping#define("nnoremap <silent>", "fd", ":Defx -no-resume -no-listed -search=`expand('%:p')`<CR>", 'Reveal current file')
 call joeconf#mapping#define("nnoremap <silent>", "ft", ":Defx<CR>", "Toggle explorer")
 call joeconf#mapping#define("nnoremap <silent>", "fs", ":update<CR>", "Save")
+call joeconf#mapping#define("nnoremap <silent>", "fn", ":CocCommand workspace.renameCurrentFile<CR>", "Rename current file")
 call joeconf#mapping#define("nnoremap <silent>", "fr", ":source %<CR>", "Source current")
 call joeconf#mapping#define("nnoremap <silent>", "fz", ":FuzzyOpen<CR>", "Fuzzy find")
 call joeconf#mapping#define("nnoremap <silent>", "fj", ":<c-u>Marksman<CR>", "Jump to file")
+call joeconf#mapping#define("nnoremap <silent>", "fm", ':<C-u>CocList mru<CR>', 'MRU Files')
 
 " Search
 " 
@@ -68,3 +71,16 @@ call joeconf#mapping#describe("ttt", "New terminal tab")
 call joeconf#mapping#describe("ttn", "Next tab")
 call joeconf#mapping#describe("ttp", "Previous tab")
 call joeconf#mapping#define("nnoremap <silent>", "to", ":call salvor#toggle_terminals()<CR>", "Toggle terminals")
+
+" Sidebar stuff
+call joeconf#mapping#group("a", "Activity Bar")
+call joeconf#mapping#define("nnoremap <silent>", "cf", ':Defx<CR>', 'File explorer')
+call joeconf#mapping#define("nnoremap <silent>", "cu", ':UndotreeToggle', 'Undo history')
+
+" CoC
+call joeconf#mapping#group(";", "CoC")
+call joeconf#mapping#define("nnoremap <silent>", ";e", ':<C-u>CocList extensions<cr>', 'Extensions')
+call joeconf#mapping#define("nnoremap <silent>", ";d", ':<C-u>CocList commands<cr>', 'Commands')
+call joeconf#mapping#group(";l", "CoC List")
+call joeconf#mapping#define("nnoremap <silent>", ";lp", ':<C-u>CocListResume<CR>', 'Resume')
+call joeconf#mapping#define("nnoremap <silent>", ";lo", ':<C-u>CocList mru<CR>', 'MRU')
