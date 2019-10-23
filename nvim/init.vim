@@ -255,7 +255,7 @@ function! LightlineMode()
 endfunction
 
 function! LightlineFilename()
-  return &filetype == "defx" ? "" : expand('%:t') . (&modified ? " " : "")
+  return &filetype == "defx" ? "" : pathshorten(expand('%:.')) . (&modified ? " " : "")
 endfunction
 
 function! LightlineGitBranch()
