@@ -25,3 +25,9 @@ end
 if test -d $HOME/.cargo
   set -x PATH $PATH:$HOME/.cargo/bin
 end
+
+set -x GDK_BACKEND wayland
+
+if test -z $DISPLAY && test $TERM = linux
+  sway ^ ~/.local/var/log/sway.log
+end
