@@ -44,6 +44,7 @@ grim
 hub
 ical2rem
 imagemagick
+imv
 incron
 inetutils
 intel-ucode
