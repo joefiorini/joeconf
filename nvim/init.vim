@@ -284,6 +284,10 @@ let g:defx_icons_root_opened_tree_icon = ""
 let g:defx_icons_parent_icon = " "
 let g:defx_icons_mark_icon = ""
 
+let g:vimade = {
+      \ "fadelevel": 0.6
+      \}
+
 call defx#custom#option('_', {
       \ 'root_marker': '⠀',
       \ 'columns': 'indent:guide:icons:filename:type',
