@@ -81,6 +81,7 @@ call joeconf#mapping#define("nnoremap <silent>", "cu", ':UndotreeToggle', 'Undo 
 call joeconf#mapping#group(";", "CoC")
 call joeconf#mapping#define("nnoremap <silent>", ";e", ':<C-u>CocList extensions<cr>', 'Extensions')
 call joeconf#mapping#define("nnoremap <silent>", ";d", ':<C-u>CocList commands<cr>', 'Commands')
+call joeconf#mapping#define("nmap <silent>", ";c", '<Plug>(coc-codelens-action)', 'Commands')
 call joeconf#mapping#group(";l", "CoC List")
 call joeconf#mapping#define("nnoremap <silent>", ";lp", ':<C-u>CocListResume<CR>', 'Resume')
 call joeconf#mapping#define("nnoremap <silent>", ";lo", ':<C-u>CocList mru<CR>', 'MRU')

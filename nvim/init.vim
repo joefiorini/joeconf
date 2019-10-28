@@ -349,7 +349,7 @@ function! s:open_terminal()
   exe "startinsert!"
 endfunction
 
-command! -nargs=0 EditVimConfig :tabe ~/.config/nvim/init.vim
+command! -nargs=0 EditVimConfig :tab drop ~/.config/nvim/init.vim
 
 
 command! -nargs=0 ReloadVimConfig :source ~/.config/nvim/init.vim
@@ -482,10 +482,8 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-nmap <localleader>ac <Plug>(coc-codeaction)
-nmap <localleader>qf <Plug>(coc-fix-current)
-
-" Use <tab> for select selections ranges, needs server support, like: coc-tsserver, coc-python
+" Use <tab> for select selections ranges, needs server support, like:
+" coc-tsserver, coc-python
 nmap <silent> <TAB> <Plug>(coc-range-select)
 xmap <silent> <TAB> <Plug>(coc-range-select)
 xmap <silent> <S-TAB> <Plug>(coc-range-select-backword)
@@ -521,6 +519,12 @@ nnoremap <silent> <localleader>j  :<C-u>CocNext<CR>
 " Do default action for previous item.
 nnoremap <silent> <localleader>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
+xmap <silent> <localleader>ac <Plug>(coc-codeaction-selected)
+nmap <silent> <localleader>af <Plug>(coc-fix-current)
+nmap <silent> <localleader>qr <Plug>(coc-references)
+nmap <silent> <localleader>ac <Plug>(coc-codeaction)
+
+nmap <silent> <localleader>rn <Plug>(coc-rename)
 
 command! -nargs=+ -complete=custom,s:GrepArgs Ag exe 'CocList -I grep '.<q-args>
 

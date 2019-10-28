@@ -19,6 +19,9 @@
   "coc.source.file.triggerCharacters": ["/", "./"],
   "coc.source.around.enable": false,
   "coc.source.buffer.enable": false,
+  "diagnostic.virtualText": true,
+  "codeLens.enable": true,
+  "coc.preferences.useQuickfixForLocations": true,
   "session.restartOnSessionLoad": true,
   "typescript.preferences.importModuleSpecifier": "auto",
   "eslint.codeAction.disableRuleComment": {

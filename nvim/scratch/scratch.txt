@@ -4,4 +4,17 @@ https://apps.apple.com/us/app/piano-prodigy/id570973124?mt=12
 
 https://apps.apple.com/us/app/emedia-my-piano/id530286596?mt=12
 
+- Insurance
+- Navigation
+- Header
+- Bottom spacing
+- Integrate renew card into dashboard
+- Animations (credit card & card expanding)
+- Testing, feedback
+- PRing (multiples)
+- Tests (Cypress, Unit)
+- Performance/React Memo
+
+
+- [ ] Add instrumentation (upload begin, upload finish, etc)
 
