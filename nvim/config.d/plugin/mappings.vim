@@ -8,7 +8,7 @@ call joeconf#mapping#define("nnoremap <silent>", "ft", ":Defx<CR>", "Toggle expl
 call joeconf#mapping#define("nnoremap <silent>", "fs", ":update<CR>", "Save")
 call joeconf#mapping#define("nnoremap <silent>", "fn", ":CocCommand workspace.renameCurrentFile<CR>", "Rename current file")
 call joeconf#mapping#define("nnoremap <silent>", "fr", ":source %<CR>", "Source current")
-call joeconf#mapping#define("nnoremap <silent>", "fz", ":FuzzyOpen<CR>", "Fuzzy find")
+call joeconf#mapping#define("nnoremap <silent>", "fz", ":Clap files<CR>", "Fuzzy find")
 call joeconf#mapping#define("nnoremap <silent>", "fj", ":<c-u>Marksman<CR>", "Jump to file")
 call joeconf#mapping#define("nnoremap <silent>", "fm", ':<C-u>CocList mru<CR>', 'MRU Files')
 

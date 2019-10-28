@@ -26,7 +26,7 @@ Plug 'chaoren/vim-wordmotion'
 
 Plug 'Rigellute/shades-of-purple.vim'
 
-Plug 'cloudhead/neovim-fuzzy'
+Plug 'liuchengxu/vim-clap'
 
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'kristijanhusak/defx-icons'
@@ -465,9 +465,6 @@ function! ToggleNetrw()
   endif
 endfunction
 
-autocmd FileType netrw nnoremap <buffer> ? :help netrw-quickmap<cr>
-autocmd FileType netrw nnoremap <buffer> q :q<cr>
-
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
 
@@ -495,9 +492,25 @@ xmap <silent> af <Plug>(coc-funcobj-a)
 " Expand current file's directory in command line
 cnoremap %% <C-R>=expand("%:h")<cr>/
 
+" pear-tree's default <CR> mapping conflicts with vim-clap's buffer-local <CR>
+" mapping. Using this hack to manually set a buffer local mapping in non-clap
+" buffers for pear-tree
+fun! ApplyCRBinding()
+  if &filetype != "clap-input"
+    imap <buffer> <CR> <Plug>(PearTreeExpand)
+    imap <buffer> <BS> <Plug>(PearTreeBackspace)
+    imap <buffer> <Esc> <Plug>(PearTreeFinishExpansion)
+  endif
+endfun
+
 let g:pear_tree_smart_openers = v:true
 let g:pear_tree_smart_closers = v:true
 let g:pear_tree_smart_backspace = v:true
+let g:pear_tree_map_special_keys = 0
+
+autocmd BufRead * call ApplyCRBinding()
+
+"autocmd WinEnter * if &buftype ==# 'terminal' | startinsert | endif
 
 call which_key#register('<Space>', 'g:which_key_map')
 nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>
