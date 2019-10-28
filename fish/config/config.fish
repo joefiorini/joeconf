@@ -9,8 +9,8 @@ if test -d /opt/bin
 end
 
 if test -d /usr/local/opt/qt/bin
-  set -g fish_user_paths "/usr/local/opt/qt/bin" $fish_user_paths
-  set -g fish_user_paths "/usr/local/opt/qt/bin" $fish_user_paths
+  set -U fish_user_paths "/usr/local/opt/qt/bin" $fish_user_paths
+  set -U fish_user_paths "/usr/local/opt/qt/bin" $fish_user_paths
 end
 
 if test -d $HOME/.opam
@@ -19,7 +19,7 @@ if test -d $HOME/.opam
 end
 
 if test -d /usr/local/opt/llvm
-  set -g fish_user_paths "/usr/local/opt/llvm/bin" $fish_user_paths
+  set -U fish_user_paths "/usr/local/opt/llvm/bin" $fish_user_paths
 end
 
 if test -d $HOME/.cargo
