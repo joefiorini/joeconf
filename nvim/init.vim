@@ -500,12 +500,22 @@ cnoremap %% <C-R>=expand("%:h")<cr>/
 " mapping. Using this hack to manually set a buffer local mapping in non-clap
 " buffers for pear-tree
 fun! ApplyCRBinding()
-  if &filetype != "clap-input"
+  if &filetype != "clap_input"
     imap <buffer> <CR> <Plug>(PearTreeExpand)
     imap <buffer> <BS> <Plug>(PearTreeBackspace)
     imap <buffer> <Esc> <Plug>(PearTreeFinishExpansion)
   endif
 endfun
+
+let g:clap_current_selection_sign = { 'text':  '', 'texthl': "WarningMsg", "linehl": "ClapCurrentSelection"}
+let g:clap_search_box_border_style = 'curve'
+let g:clap_search_box_border_symbols = {
+      \ "curve": ["", ""]
+      \}
+
+let fg_color = synIDattr(synIDtrans(hlID('ClapInput')), 'bg', 'gui')
+
+autocmd FileType clap_input hi ClapSymbol guibg=none guifg=#7d44b2
 
 let g:pear_tree_smart_openers = v:true
 let g:pear_tree_smart_closers = v:true

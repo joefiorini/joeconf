@@ -16,10 +16,11 @@ call joeconf#mapping#define("nnoremap <silent>", "fm", ':<C-u>CocList mru<CR>', 
 " 
 call joeconf#mapping#group("s", "+Search")
 
-call joeconf#mapping#define("nnoremap <silent>", "/", ":<C-u>Ag -smartcase<CR>", "Find in files")
+call joeconf#mapping#define("nnoremap <silent>", "/", ":Clap grep<CR>", "Find in files")
+call joeconf#mapping#define("nnoremap <silent>", "sb", ":Clap lines<CR>", "Find in open buffers")
 call joeconf#mapping#define("nnoremap <silent>", "sp", ":<C-u>Ag -smartcase<CR>", "Find in files")
 call joeconf#mapping#define("nnoremap <silent>", "sx", ":<C-u>Ag -regex<CR>", "Find in files (regex)")
-call joeconf#mapping#define("nnoremap <silent>", "sw", ":exe 'CocList -I --input='.expand('<cword>').' grep'<CR>", "Find current word in files")
+call joeconf#mapping#define("nnoremap <silent>", "sw", ":Clap grep ++query=<cword><CR>", "Find current word in files")
 call joeconf#mapping#define("nnoremap <silent>", "sc", ":nohlsearch<CR>", "Clear search")
 
 " User-Specific
@@ -60,6 +61,7 @@ call joeconf#mapping#define("nnoremap <silent>", "bn", ":bnext<CR>", "Next")
 call joeconf#mapping#define("nnoremap <silent>", "bc", ':BW<CR>', "Close")
 call joeconf#mapping#define("nnoremap <silent>", "br", ':BUNDO<CR>', "Reopen")
 call joeconf#mapping#define("nnoremap <silent>", "bl", ":<C-u>CocList buffers<CR>", "List")
+call joeconf#mapping#define("nnoremap <silent>", "bz", ":Clap buffers<CR>", "Fuzzy find")
 
 " Salvor
 "
@@ -85,3 +87,4 @@ call joeconf#mapping#define("nmap <silent>", ";c", '<Plug>(coc-codelens-action)'
 call joeconf#mapping#group(";l", "CoC List")
 call joeconf#mapping#define("nnoremap <silent>", ";lp", ':<C-u>CocListResume<CR>', 'Resume')
 call joeconf#mapping#define("nnoremap <silent>", ";lo", ':<C-u>CocList mru<CR>', 'MRU')
+call joeconf#mapping#define("nnoremap <silent>", ";lj", ':Clap jumps<CR>', 'Jumps')
