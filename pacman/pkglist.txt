@@ -62,6 +62,7 @@ neofetch
 neovim
 nerd-fonts-complete
 netctl
+nodejs-ungit
 notify-desktop-git
 nototools-git
 obs-gnome-screencast
