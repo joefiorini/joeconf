@@ -9,7 +9,7 @@
   "suggest.timeout": 500,
   "suggest.acceptSuggestionOnCommitCharacter": true,
   "project.enable": true,
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "css", "json", "javascript", "graphql", "markdown", "typescript.tsx", "reason"],
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "css", "json", "javascript", "graphql", "markdown", "typescript.tsx", "reason", "c", "cpp"],
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "jest.terminalPosition": "bottom",
   "list.source.grep.useLiteral": false,
@@ -41,22 +41,15 @@
     },
     "ccls": {
       "command": "ccls",
+      "args": ["-v=1", "--log-file=/home/joe/.local/var/log/ccls.log"],
       "filetypes": ["c", "cpp", "objc", "objcpp"],
       "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
-            "initializationOptions": {
+      "initializationOptions": {
+        "compilationDatabaseDirectory": "build",
         "cache": {
-          "directory": "/tmp/ccls"
-        },
-        "clang": {
-          "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0",
-          "extraArgs": [
-            "-isystem",
-            "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
-            "-I",
-            "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"        
-          ]
+          "directory": ".ccls-cache"
         }
-      },
+      }
     }
   }
 }
