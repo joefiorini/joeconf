@@ -22,6 +22,7 @@
   "diagnostic.virtualText": true,
   "codeLens.enable": true,
   "coc.preferences.useQuickfixForLocations": true,
+  "prettier.onlyUseLocalVersion": true,
   "session.restartOnSessionLoad": true,
   "typescript.preferences.importModuleSpecifier": "auto",
   "eslint.codeAction.disableRuleComment": {
