@@ -1,0 +1,23 @@
+#!/usr/bin/env fish
+
+notify-send -i dialog-information-symbolic.symbolic "Checking for mirrorlist updates"
+set -l base_dir /src/joeconf
+cd $base_dir
+set -l changes (git status --porcelain pacman/mirrorlist)
+
+if test -z $changes
+  exit 0
+end
+
+git add $base_dir/pacman/mirrorlist
+
+git commit -m "Updating pacman packages..."
+git push 2> ~/.local/var/log/push-mirrorlist.log
+
+if test ! $status -eq 0
+  notify-send -i dialog-warning-symbolic.symbolic "Failed to push mirrolist updates"
+  exit 1
+else
+  notify-send -i dialog-information-symbolic.symbolic "Pushed mirrorlist updates"
+  exit 0
+end
