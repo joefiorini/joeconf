@@ -1,2 +1,3 @@
 - link:
     ~/bin/sway-launcher: bin/sway-launcher.arch
+    ~/bin/share-screen: bin/share-screen.arch
