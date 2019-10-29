@@ -1,0 +1,2 @@
+- link:
+    /etc/cron.daily: cron/daily/*
