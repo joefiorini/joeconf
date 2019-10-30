@@ -1,4 +1,6 @@
 1password-cli
+alacritty
+alacritty-terminfo
 alsa-utils
 archlinux-wallpaper
 autoconf
@@ -101,6 +103,7 @@ syslog-ng
 termite
 texinfo
 the_silver_searcher
+time
 ttf-material-design-icons-git
 unicode-emoji
 unzip
