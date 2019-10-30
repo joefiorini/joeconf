@@ -19,6 +19,8 @@ Plug 'tmsvg/pear-tree'
 Plug 'mbbill/undotree'
 Plug 'chaoren/vim-wordmotion'
 
+Plug 'yuttie/comfortable-motion.vim'
+
 "------------------------ VIM TSX ------------------------
 " by default, if you open tsx file, neovim does not show syntax colors
 " vim-tsx will do all the coloring for jsx in the .tsx file
@@ -87,6 +89,8 @@ Plug 'ryanoasis/vim-devicons'
 
 Plug 'qpkorr/vim-bufkill'
 Plug 'TaDaa/vimade'
+
+Plug 'liuchengxu/vista.vim'
 
 set termguicolors
 
@@ -337,15 +341,22 @@ augroup END
 
 colorscheme shades_of_purple
 
-function! s:add_coc_commands()
-  call coc#add_command('jf.editVimConfig', 'EditVimConfig', 'Opens vim config in a new tab')
-  call coc#add_command('jf.reloadVimConfig', 'ReloadVimConfig', 'Sources vim config')
-  call coc#add_command('jf.openTerminal', 'OpenTerminal', 'Opens a terminal in a lower split window')
-  call coc#add_command('jf.toggleFileExplorer', 'toggleNetrw', 'Toggle the file explorer drawer')
-  call coc#add_command('jf.makeComponentFolder', 'MakeComponentFolder', 'Using current file name as the component name, make a new directory for the component & related files, and export from index.{ts,js}')
-endfunction
+let g:C_MapLeader = ';'
 
-call <SID>add_coc_commands()
+let g:vista_executive_for = {
+      \ 'c': 'coc',
+      \ 'typescript': 'coc',
+      \ 'typescriptreact': 'coc',
+      \ 'reason': 'coc',
+      \ 'rust': 'coc',
+      \ 'vim': 'coc',
+      \ }
+let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
+let g:vista#renderer#enable_icon = 1
+let g:vista_sidebar_width = 50
+
+let g:comfortable_motion_friction = 50.0
+let g:comfortable_motion_air_drag = 1.0
 
 function! s:open_terminal()
   let newSize = &lines > 70 ? 20 : 10
@@ -361,6 +372,8 @@ command! -nargs=0 ReloadVimConfig :source ~/.config/nvim/init.vim
 command! -nargs=0 OpenTerminal :call <SID>open_terminal()
 "nnoremap <silent> <space>` :OpenTerminal<cr>
 
+noremap <silent> <ScrollWheelDown> :call comfortable_motion#flick(80)<CR>
+noremap <silent> <ScrollWheelUp>   :call comfortable_motion#flick(-80)<CR>
 
 " == VIMPLUG END ================================
 " == AUTOCMD ================================
@@ -540,7 +553,7 @@ nnoremap <silent> <localleader>cd  :<C-u>CocList diagnostics<cr>
 " Find symbol of current document
 nnoremap <silent> <localleader>co  :<C-u>CocList outline<cr>
 " Search workspace symbols
-nnoremap <silent> <localleader>cs  :<C-u>CocList -I symbols<cr>
+nnoremap <silent> <localleader>cs  :Vista!!<CR>
 " Do default action for next item.
 nnoremap <silent> <localleader>j  :<C-u>CocNext<CR>
 " Do default action for previous item.
