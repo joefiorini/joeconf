@@ -3,7 +3,8 @@ function! joeconf#mapping#major#group(key, name)
 endfunction
 
 function! joeconf#mapping#major#define(key, command, description)
-  call joeconf#mapping#define("g:which_key_map_major", "nnoremap <silent>", "<leader>", a:key, a:command, a:description)
+  let type = match(a:command, "<Plug>") > -1 ? "nmap" : "nnoremap"
+  call joeconf#mapping#define("g:which_key_map_major",  type . " <silent>", "<leader>", a:key, a:command, a:description)
 endfunction
 
 function! joeconf#mapping#major#describe(key, desc)

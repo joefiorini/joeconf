@@ -482,9 +482,6 @@ function! ToggleNetrw()
   endif
 endfunction
 
-" Remap for rename current word
-nmap <leader>rn <Plug>(coc-rename)
-
 " Use `gw` and `ge` to navigate diagnostics
 nmap <silent> gW <Plug>(coc-diagnostic-prev)
 nmap <silent> gw <Plug>(coc-diagnostic-next)
@@ -549,25 +546,6 @@ vnoremap <silent> <localleader> :<c-u>WhichKeyVisual ','<CR>
 set timeoutlen=500
 
 let g:which_key_map =  {}
-
-" Using CocList
-" Show all diagnostics
-nnoremap <silent> <localleader>cd  :<C-u>CocList diagnostics<cr>
-" Find symbol of current document
-nnoremap <silent> <localleader>co  :<C-u>CocList outline<cr>
-" Search workspace symbols
-nnoremap <silent> <localleader>cs  :Vista!!<CR>
-" Do default action for next item.
-nnoremap <silent> <localleader>j  :<C-u>CocNext<CR>
-" Do default action for previous item.
-nnoremap <silent> <localleader>k  :<C-u>CocPrev<CR>
-" Resume latest coc list
-xmap <silent> <localleader>ac <Plug>(coc-codeaction-selected)
-nmap <silent> <localleader>af <Plug>(coc-fix-current)
-nmap <silent> <localleader>qr <Plug>(coc-references)
-nmap <silent> <localleader>ac <Plug>(coc-codeaction)
-
-nmap <silent> <localleader>rn <Plug>(coc-rename)
 
 command! -nargs=+ -complete=custom,s:GrepArgs Ag exe 'CocList -I grep '.<q-args>
 

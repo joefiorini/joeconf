@@ -38,7 +38,7 @@ call joeconf#mapping#major#define("uge", ":tabe ~/.gitconfig<CR>", "Edit Git con
 "
 call joeconf#mapping#major#group("g", "Git")
 call joeconf#mapping#major#define("gs", ":Gina status --group=git --opener='botright split'<CR>", "Status")
-call joeconf#mapping#major#define("gm", "<Plug>(git-messenger)", "Status")
+call joeconf#mapping#major#define("gm", "<Plug>(git-messenger)", "Messenger")
 call joeconf#mapping#major#group("gc", "Commit")
 call joeconf#mapping#major#define("gcc", ":Gina commit --group=git --opener='botright split'<CR>", "Commit")
 call joeconf#mapping#major#define("gca", ":Gina commit --amend --group=git --opener='botright split'<CR>", "Amend")
