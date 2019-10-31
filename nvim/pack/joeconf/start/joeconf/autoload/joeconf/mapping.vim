@@ -17,7 +17,6 @@ endfunction
 function! joeconf#mapping#define(dict_name, type, prefix, key, value, desc)
   let keys = split(a:key, '\zs')
   call s:set_which_key_desc(a:dict_name, keys, a:desc)
-  echo a:type . ' ' . a:prefix . a:key . ' ' . a:value
   exec a:type . ' ' . a:prefix . a:key . ' ' . a:value
 endfunction
 

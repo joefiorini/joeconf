@@ -1,101 +1,5 @@
-" TODO:
-" - [ ] Auto-install plugins when added
-"
-" == VIM PLUG ================================
-call plug#begin('~/.vim/plugged')
-"------------------------ COC ------------------------
-" coc for tslinting, auto complete and prettier
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
-
-" coc extensions
-let g:coc_global_extensions = ['coc-eslint', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier', 'coc-import-cost', 'coc-svg', 'coc-gitignore', 'coc-lists', 'coc-snippets', 'coc-git', 'coc-marketplace', 'coc-stylelint', 'coc-jest', 'coc-project', 'coc-vimlsp', 'coc-rls']
-
-"Plug 'HerringtonDarkholme/yats.vim' 
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'leafgarland/typescript-vim'
-
-Plug 'tmsvg/pear-tree'
-
-Plug 'mbbill/undotree'
-Plug 'chaoren/vim-wordmotion'
-
-Plug 'yuttie/comfortable-motion.vim'
-
-"------------------------ VIM TSX ------------------------
-" by default, if you open tsx file, neovim does not show syntax colors
-" vim-tsx will do all the coloring for jsx in the .tsx file
-"Plug 'peitalin/vim-jsx-typescript'
-
-Plug 'Rigellute/shades-of-purple.vim'
-
-Plug 'liuchengxu/vim-clap'
-
-Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'kristijanhusak/defx-icons'
-Plug 'Shougo/echodoc.vim'
-
-Plug 'itchyny/lightline.vim'
-
-Plug 'gerw/vim-HiLinkTrace'
-
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'hail2u/vim-css3-syntax'
-
-Plug 'wellle/targets.vim'
-
-Plug 'rust-lang/rust.vim'
-Plug 'cespare/vim-toml'
-
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
-
-Plug 'mtth/scratch.vim'
-
-Plug 'scrooloose/nerdcommenter'
-
-Plug 'jxnblk/vim-mdx-js'
-Plug 'plasticboy/vim-markdown'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
-
-Plug 'liuchengxu/vim-which-key'
-
-Plug 'joefiorini/salvor.vim'
-
-Plug 'dag/vim-fish'
-
-Plug 'RRethy/vim-illuminate'
-let config_plugin_path = expand('<sfile>:h') . "/config.d"
-Plug config_plugin_path
-
-Plug 'WolfgangMehner/c-support'
-
-Plug 'reasonml-editor/vim-reason-plus'
-Plug 'airblade/vim-gitgutter'
-Plug 'godlygeek/tabular'
-Plug 'mhinz/vim-startify'
-Plug 'tyru/open-browser.vim'
-
-Plug 'vim-jp/vital.vim'
-
-Plug 'thinca/vim-themis'
-
-Plug 'svermeulen/nvim-marksman', { 'do': ':UpdateRemotePlugins'}
-Plug 'lambdalisue/gina.vim'
-Plug 'lambdalisue/suda.vim'
-
-Plug 'rhysd/git-messenger.vim'
-
-Plug 'ryanoasis/vim-devicons'
-
-Plug 'qpkorr/vim-bufkill'
-Plug 'TaDaa/vimade'
-
-Plug 'liuchengxu/vista.vim'
 
 set termguicolors
-
-call plug#end()
-
 " From vim-better-default
 "
 set shortmess=atOI " No help Uganda information, and overwrite read messages to avoid PRESS ENTER prompts
@@ -263,7 +167,7 @@ function! LightlineFilename()
 endfunction
 
 function! LightlineGitBranch()
-  return &filetype == "defx" ? "" : fugitive#head()
+  return &filetype == "defx" ? "" : gina#component#repo#preset('fancy')
 endfunction
 
 function! LightlinePercent()
@@ -281,32 +185,9 @@ endfunction
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['*:commit'] = ''
 
-let g:defx_icons_directory_icon = ""
-let g:defx_icons_nested_closed_tree_icon = ""
-let g:defx_icons_nested_opened_tree_icon = ""
-let g:defx_icons_root_opened_tree_icon = ""
-let g:defx_icons_parent_icon = " "
-let g:defx_icons_mark_icon = ""
-
 let g:vimade = {
       \ "fadelevel": 0.6
       \}
-
-call defx#custom#option('_', {
-      \ 'root_marker': '⠀',
-      \ 'columns': 'indent:guide:icons:filename:type',
-      \ 'split': 'vertical',
-      \ 'direction': 'topleft',
-      \ 'toggle': 1,
-      \ 'listed': 1,
-      \ 'resume': 1,
-      \ 'winwidth': 50,
-      \ 'winheight': &lines - &cmdheight
-      \ })
-
-call defx#custom#column('filename', {
-      \ 'root_marker_highlight': 'Ignore',
-      \ })
 
 function! ShadesOfPurpleTypescript() abort
         "hi tsExportDefault cterm=italic ctermfg=173
@@ -535,13 +416,6 @@ let g:pear_tree_map_special_keys = 0
 autocmd BufRead * call ApplyCRBinding()
 
 "autocmd WinEnter * if &buftype ==# 'terminal' | startinsert | endif
-
-call which_key#register('<Space>', 'g:which_key_map_major')
-nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>
-vnoremap <silent> <leader> :<c-u>WhichKeyVisual '<Space>'<CR>
-call which_key#register(',', 'g:which_key_map_minor')
-nnoremap <silent> <localleader> :<c-u>WhichKey ','<CR>
-vnoremap <silent> <localleader> :<c-u>WhichKeyVisual ','<CR>
 
 set timeoutlen=500
 
