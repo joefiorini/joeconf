@@ -70,6 +70,7 @@ nerd-fonts-complete
 netctl
 notify-desktop-git
 nototools-git
+nvimpager-git
 obs-gnome-screencast
 obs-studio
 opencl-headers
