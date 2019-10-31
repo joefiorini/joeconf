@@ -28,6 +28,7 @@ doxygen
 elinks
 elvish
 fakeroot
+figlet
 firefox
 fish
 flatpak
