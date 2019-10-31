@@ -56,6 +56,7 @@ libnotify
 libtool
 linux
 linux-firmware
+lsix
 m4
 macbook-lighter
 make
