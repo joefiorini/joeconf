@@ -77,6 +77,7 @@ openssh
 optipng
 pacman-contrib
 pamixer
+pandoc
 patch
 pavucontrol
 pkgconf
