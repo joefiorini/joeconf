@@ -90,6 +90,7 @@ python-pip
 python-unicodedata2
 python-websocket-client
 qt5-wayland
+qutebrowser
 ranger
 reflector
 remind
