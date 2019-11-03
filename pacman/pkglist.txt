@@ -96,7 +96,6 @@ ranger
 reflector
 remind
 ripgrep
-rua
 ruby
 ruby-bundler
 slack-desktop
