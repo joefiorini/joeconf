@@ -18,7 +18,6 @@ broadcom-wl
 btrfs-progs
 ccls-git
 chromium-ozone
-cronie
 dex
 dhcpcd
 dialog
