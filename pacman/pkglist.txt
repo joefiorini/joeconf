@@ -27,6 +27,7 @@ doxygen
 elinks
 elvish
 fakeroot
+fcron
 figlet
 firefox
 fish
