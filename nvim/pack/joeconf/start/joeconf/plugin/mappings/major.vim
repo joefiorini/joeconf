@@ -16,10 +16,9 @@ call joeconf#mapping#major#define("fm", ':<C-u>CocList mru<CR>', 'MRU Files')
 " 
 call joeconf#mapping#major#group("s", "+Search")
 
-call joeconf#mapping#major#define("/", ":<C-u>Ag -smartcase<CR>", "Find in files")
+call joeconf#mapping#major#define("/", ":Clap grep<CR>", "Find in files")
 call joeconf#mapping#major#define("sb", ":Clap lines<CR>", "Find in open buffers")
-call joeconf#mapping#major#define("sp", ":<C-u>Ag -smartcase<CR>", "Find in files")
-call joeconf#mapping#major#define("sx", ":<C-u>Ag -regex<CR>", "Find in files (regex)")
+call joeconf#mapping#major#define("sx", ":<C-u>GrepFiles -regex<CR>", "Find in files (regex)")
 call joeconf#mapping#major#define("sw", ":Clap grep ++query=<cword><CR>", "Find current word in files")
 call joeconf#mapping#major#define("sc", ":nohlsearch<CR>", "Clear search")
 

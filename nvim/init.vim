@@ -391,7 +391,7 @@ cnoremap %% <C-R>=expand("%:h")<cr>/
 " mapping. Using this hack to manually set a buffer local mapping in non-clap
 " buffers for pear-tree
 fun! ApplyCRBinding()
-  if &filetype != "clap_input"
+  if &filetype != "clap_input" && match(&filetype, "^gina") != -1
     imap <buffer> <CR> <Plug>(PearTreeExpand)
     imap <buffer> <BS> <Plug>(PearTreeBackspace)
     imap <buffer> <Esc> <Plug>(PearTreeFinishExpansion)
@@ -421,7 +421,14 @@ set timeoutlen=500
 
 let g:which_key_map =  {}
 
-command! -nargs=+ -complete=custom,s:GrepArgs Ag exe 'CocList -I grep '.<q-args>
+function! GrepFiles(args)
+  let original_grep_opts = deepcopy(get(g:, 'clap_provider_grep_opts', ''))
+  let g:clap_provider_grep_opts = original_grep_opts . ' ' . a:args
+  Clap grep
+  let g:clap_provider_grep_opts = original_grep_opts
+endfunction
+
+command! -nargs=+ GrepFiles call GrepFiles(<q-args>)
 
 function! s:GrepArgs(...)
   let list = ['-S', '-smartcase', '-i', '-ignorecase', '-w', '-word',
