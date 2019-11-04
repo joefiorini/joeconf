@@ -1,5 +1,27 @@
 - link:
-    ~/.config/fish: fish/config
+    ~/.config/fish/config.fish: fish/config/config.fish
+    ~/.config/fish/completions/nvm.fish: fish/config/completions/nvm.fish
+    ~/.config/fish/completions/fisher.fish: fish/config/completions/fisher.fish
+    ~/.config/fish/completions/alacritty.fish: fish/config/completions/alacritty.fish
+    ~/.config/fish/fishfile: fish/config/fishfile
+    ~/.config/fish/functions/__fzf_parse_commandline.fish: fish/config/functions/__fzf_parse_commandline.fish
+    ~/.config/fish/functions/__fzf_reverse_isearch.fish: fish/config/functions/__fzf_reverse_isearch.fish
+    ~/.config/fish/functions/git_is_repo.fish: fish/config/functions/git_is_repo.fish
+    ~/.config/fish/functions/nvm.fish: fish/config/functions/nvm.fish
+    ~/.config/fish/functions/__fzf_complete.fish: fish/config/functions/__fzf_complete.fish
+    ~/.config/fish/functions/fisher.fish: fish/config/functions/fisher.fish
+    ~/.config/fish/functions/__fzf_get_dir.fish: fish/config/functions/__fzf_get_dir.fish
+    ~/.config/fish/functions/fish_prompt.fish: fish/config/functions/fish_prompt.fish
+    ~/.config/fish/functions/__fzf_cd.fish: fish/config/functions/__fzf_cd.fish
+    ~/.config/fish/functions/__fzfcmd.fish: fish/config/functions/__fzfcmd.fish
+    ~/.config/fish/functions/__fzf_open.fish: fish/config/functions/__fzf_open.fish
+    ~/.config/fish/functions/fish_right_prompt.fish: fish/config/functions/fish_right_prompt.fish
+    ~/.config/fish/functions/__fzf_complete_preview.fish: fish/config/functions/__fzf_complete_preview.fish
+    ~/.config/fish/functions/__fzf_find_file.fish: fish/config/functions/__fzf_find_file.fish
+    ~/.config/fish/conf.d/fzf_key_bindings.fish: fish/config/conf.d/fzf_key_bindings.fish
+    ~/.config/fish/conf.d/nvm.fish: fish/config/conf.d/nvm.fish
+    ~/.config/fish/conf.d/fzf.fish: fish/config/conf.d/fzf.fish
+    ~/.config/fish/fish_variables: fish/config/fish_variables
 - shell:
     - command: fisher; true
       description: Install fisher packages
