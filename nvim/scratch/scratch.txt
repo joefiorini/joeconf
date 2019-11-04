@@ -9,12 +9,56 @@ https://apps.apple.com/us/app/emedia-my-piano/id530286596?mt=12
 - Header
 - Bottom spacing
 - Integrate renew card into dashboard
-- Animations (credit card & card expanding)
 - Testing, feedback
 - PRing (multiples)
 - Tests (Cypress, Unit)
 - Performance/React Memo
 
 
-- [ ] Add instrumentation (upload begin, upload finish, etc)
+- [ ] Don't show subnav on mobile
+- [ ] Remove word "Card" from credit card buttons
+- [ ] Animations (credit card & card expanding)
+- [ ] NodeType error on Michal's account "spiderman@abcdef.com / Pass11"
+- [ ] Select component seems to not respect formik value (see insurance
+  page/who's plan is this drop down)
+- [ ] EditAddressForm breaks when clicking save
+- [ ] Accessory menu not closing on payment info
+- [ ] Make SMS number clickable
+- [ ] Manual address entry on shipping address
+- [ ] Insurance validation
+- [?] Redux causing unnecessary rerenders (need to memoize mapped state)
+- [x] Google map not showing when changing shipping address
+- [x] Weird flickering when on /dashboard -> any sub page
+- [ ] Toggle component flickers when navigating 
+- [ ] Close insurance card after uploading
+- [ ] Dates as strings but should be dates (working now, but getting redux
+  warnings)
+- [ ] Click target on subnav is too small (Bryan)
+- [ ] Input on edit delivery address is short
+- [ ] Label for plan owner last name
+- [x] Fix google map key on preview map
+- [ ] From delivery to dashboard flashed the old dashboard (might be fixed by
+  updating to latest delivery with Lambda update?)
+- [X] Ensure title transform happens on card loader
+- [ ] Visible resize of google maps preview image
+- [ ] Spacing between toggles
+- [ ] Icon cutoff
+- [ ] Format phone number with dashes
 
+- [ ] Add instrumentation (upload begin, upload finish, etc)
+- [ ] Add PII prop
+
+Jira tickets:
+- [ ] Add tracking details to order card
+
+Meetings
+- [ ] V on 11/6 for spacing fixes
+- [ ] Second design review on 11/14
+- [ ] Second business/medical review on 11/15
+- [ ] Launch by 11/18
+
+
+- [x] FC2's ship quarterly, will that be confusing that we show it?
+- [x] Might not want to toggle FC2 because it's a quarterly auto-refill, we want
+  to understand the reason they are turning it off (Aditya)
+- [x] Ghosting user's account (Jennifer)
