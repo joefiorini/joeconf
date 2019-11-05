@@ -14,7 +14,6 @@ binutils
 bison
 bluez
 bluez-utils
-broadcom-wl
 btrfs-progs
 ccls-git
 chromium-ozone
