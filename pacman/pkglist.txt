@@ -59,6 +59,7 @@ libtool
 linux
 linux-firmware
 lsix
+ly
 m4
 macbook-lighter
 make
@@ -132,7 +133,6 @@ wpa_supplicant
 xdg-desktop-portal
 xdg-user-dirs
 xorg-server-xwayland
-xorg-xauth
 xorg-xev
 yarn
 yay
