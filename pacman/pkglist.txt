@@ -16,6 +16,7 @@ bluez
 bluez-utils
 broadcom-wl
 btrfs-progs
+calc
 ccls-git
 chromium-ozone
 dex
