@@ -19,6 +19,7 @@ btrfs-progs
 calc
 ccls-git
 chromium-ozone
+clib
 dex
 dhcpcd
 dialog
