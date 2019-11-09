@@ -86,7 +86,6 @@ pamixer
 pandoc
 patch
 pavucontrol
-perl-checkupdates-aur
 pkgconf
 plymouth
 plymouth-theme-aperture-git
