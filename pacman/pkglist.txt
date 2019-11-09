@@ -18,6 +18,7 @@ broadcom-wl
 btrfs-progs
 calc
 ccls-git
+checkupdates-aur
 chromium-ozone
 clib
 dex
@@ -85,7 +86,7 @@ pamixer
 pandoc
 patch
 pavucontrol
-perl-www-aur
+perl-checkupdates-aur
 pkgconf
 plymouth
 plymouth-theme-aperture-git
