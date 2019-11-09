@@ -43,6 +43,7 @@ fzf
 fzy
 gcc
 gdb
+gebaar-libinput-git
 gist
 glfw-wayland
 gnome-font-viewer
