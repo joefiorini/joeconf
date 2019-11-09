@@ -141,6 +141,7 @@ xdg-desktop-portal
 xdg-user-dirs
 xorg-server-xwayland
 xorg-xev
+xorg-xeyes
 yarn
 yay
 zopfli
