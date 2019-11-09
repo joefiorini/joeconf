@@ -48,6 +48,7 @@ gnome-font-viewer
 gnu-netcat
 google-chrome
 grim
+htop
 hub
 ical2rem
 imagemagick
