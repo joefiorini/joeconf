@@ -15,6 +15,7 @@ binutils
 bison
 bluez
 bluez-utils
+brightnessctl
 broadcom-wl
 btrfs-progs
 calc
