@@ -46,6 +46,7 @@ gcc
 gdb
 gebaar-libinput-git
 gist
+glew-wayland
 glfw-wayland
 gnome-font-viewer
 gnu-netcat
