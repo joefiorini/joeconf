@@ -2,6 +2,7 @@
 alacritty
 alacritty-terminfo
 alsa-utils
+arc-gtk-theme
 archlinux-wallpaper
 asciiquarium
 autoconf
