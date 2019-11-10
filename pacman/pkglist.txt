@@ -2,6 +2,7 @@
 alacritty
 alacritty-terminfo
 alsa-utils
+arc-firefox-theme
 arc-gtk-theme
 arc-icon-theme
 archlinux-wallpaper
@@ -148,5 +149,4 @@ xorg-server-xwayland
 xorg-xev
 yarn
 yay
-zip
 zopfli
