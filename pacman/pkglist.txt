@@ -148,4 +148,5 @@ xorg-server-xwayland
 xorg-xev
 yarn
 yay
+zip
 zopfli
