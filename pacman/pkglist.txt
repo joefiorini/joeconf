@@ -54,6 +54,7 @@ gnome-font-viewer
 gnu-netcat
 google-chrome
 grim
+gtk-engine-murrine
 htop
 hub
 ical2rem
