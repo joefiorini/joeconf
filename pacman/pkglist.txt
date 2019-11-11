@@ -120,6 +120,7 @@ ruby-bundler
 slack-desktop
 slack-term
 slurp
+snap-pac
 spotify
 sudo
 sway
