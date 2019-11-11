@@ -8,7 +8,6 @@ arc-icon-theme
 archlinux-wallpaper
 asciiquarium
 autoconf
-autoconf-archive
 automake
 autotiling
 aws-cli
@@ -30,10 +29,6 @@ clib
 dex
 dhcpcd
 dialog
-docbook-dsssl
-docbook-sgml
-docbook-sgml31
-docbook-utils
 docker
 docker-compose
 doxygen
@@ -47,6 +42,7 @@ fish
 flatpak
 flex
 font-manager
+fontconfig-ubuntu
 fontforge
 fzf
 fzy
@@ -73,16 +69,12 @@ khal
 kitty
 kscreen
 libnotify
-libsigsegv
-libspectre
-libsynctex
 libtool
 linux
 linux-firmware
 lsix
 lxappearance
 ly
-lynx
 m4
 macbook-lighter
 make
@@ -98,8 +90,6 @@ nvimpager-git
 obs-gnome-screencast
 obs-studio
 opencl-headers
-openjade
-opensp
 openssh
 optipng
 pacman-contrib
@@ -108,13 +98,11 @@ pamixer
 pandoc
 patch
 pavucontrol
-perl-sgmls
 pkgconf
 plasma-desktop
 plasma-wayland-session
 plymouth
 plymouth-theme-aperture-git
-poppler-glib
 pulseaudio-alsa
 python-booleanoperations
 python-pip
@@ -128,7 +116,6 @@ remind
 ripgrep
 ruby
 ruby-bundler
-sgml-common
 slack-desktop
 slack-term
 slurp
@@ -138,12 +125,8 @@ sway
 swayidle
 swaylock
 syslog-ng
-t1lib
 termite
 texinfo
-texlive-bin
-texlive-core
-texlive-formatsextra
 the_silver_searcher
 time
 ttf-material-design-icons-git
@@ -151,7 +134,6 @@ unicode-emoji
 unzip
 upower
 v4l2loopback-dkms-git
-valgrind
 vdirsyncer
 way-cooler-git
 waybar
@@ -172,4 +154,3 @@ xorg-xev
 yarn
 yay
 zopfli
-zziplib
