@@ -66,6 +66,7 @@ inetutils
 intel-ucode
 khal
 kitty
+kscreen
 libnotify
 libtool
 linux
