@@ -21,6 +21,7 @@ bluez-utils
 brightnessctl
 broadcom-wl
 btrfs-progs
+cairo-ubuntu
 calc
 ccls-git
 checkupdates-aur
