@@ -136,6 +136,7 @@ unicode-emoji
 unzip
 upower
 v4l2loopback-dkms-git
+valgrind
 vdirsyncer
 way-cooler-git
 waybar
