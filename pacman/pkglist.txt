@@ -90,7 +90,6 @@ nototools-git
 nvimpager-git
 obs-gnome-screencast
 obs-studio
-ocl-icd
 opencl-headers
 openssh
 optipng
@@ -118,7 +117,6 @@ remind
 ripgrep
 ruby
 ruby-bundler
-slack-desktop
 slack-term
 slurp
 snap-pac
