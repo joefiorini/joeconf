@@ -92,6 +92,7 @@ obs-gnome-screencast
 obs-studio
 opencl-headers
 openssh
+openttd
 optipng
 pacman-contrib
 pacmatic
