@@ -93,6 +93,8 @@ obs-studio
 opencl-headers
 openssh
 openttd
+openttd-opengfx
+openttd-opensfx
 optipng
 pacman-contrib
 pacmatic
