@@ -1,0 +1,8 @@
+- link:
+    /etc/sway/conf.d/10-systemd.conf: sway-service/10-systemd
+    /etc/systemd/user/sway.service: sway-service/sway.service
+    /usr/share/wayland-sessions/sway-service.desktop: sway-service/sway-service.desktop
+    /usr/local/bin/sway-service.sh: sway-service/sway-service.sh
+    /etc/systemd/user/swayidle.service: sway-service/swayidle.service
+    /etc/systemd/user/mako.service: sway-service/mako.service
+    /etc/systemd/user/sway-session.target: sway-service/sway-session.target
