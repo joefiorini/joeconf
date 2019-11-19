@@ -43,6 +43,7 @@ call minpac#add('qpkorr/vim-bufkill')
 call minpac#add('tyru/open-browser.vim')
 call minpac#add('joefiorini/salvor.vim')
 call minpac#add('mtth/scratch.vim')
+call minpac#add('/src/nvim-taskwarrior')
 
 " Editing Experience
 call minpac#add('godlygeek/tabular')
@@ -52,6 +53,9 @@ call minpac#add('wellle/targets.vim')
 call minpac#add('lambdalisue/suda.vim')
 call minpac#add('chaoren/vim-wordmotion')
 call minpac#add('tmsvg/pear-tree')
+call minpac#add('dhruvasagar/vim-table-mode', {
+    \ 'on': [ 'TableModeEnable' ]
+\ })
 
 " Plugin Development Tools
 call minpac#add('vim-jp/vital.vim')

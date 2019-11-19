@@ -1,3 +1,4 @@
 incron.arch-sudo
 pacman.arch-sudo
 udev.arch-sudo
+sway.arch-sudo

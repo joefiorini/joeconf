@@ -4,8 +4,12 @@ set -x NODE_OPTIONS --max-old-space-size=8192
 
 set -x REVIEW_BASE develop
 
+if test -d $HOME/bin
+  set -a PATH $HOME/bin
+end
+
 if test -d /opt/bin
-  set -x PATH $PATH:/opt/bin
+  set -a PATH /opt/bin
 end
 
 if test -d /usr/local/opt/qt/bin
@@ -23,11 +27,5 @@ if test -d /usr/local/opt/llvm
 end
 
 if test -d $HOME/.cargo
-  set -x PATH $PATH:$HOME/.cargo/bin
-end
-
-set -x GDK_BACKEND wayland
-
-if test -z $DISPLAY && test $TERM = linux
-  sway ^ ~/.local/var/log/sway.log
+  set -a PATH $HOME/.cargo/bin
 end

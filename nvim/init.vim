@@ -167,6 +167,9 @@ function! LightlineFilename()
 endfunction
 
 function! LightlineGitBranch()
+  if g:gina#component#repo#commit_length < 1
+    return
+  endif
   return &filetype == "defx" ? "" : gina#component#repo#preset('fancy')
 endfunction
 

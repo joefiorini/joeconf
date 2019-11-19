@@ -3,6 +3,7 @@
   "eslint.autoFixOnSave": true,
   "eslint.enable": true,
   "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx"],
+  "tsserver.enableJavascript": true,
   "eslint.packageManager": "yarn",
   "eslint.trace.server": "verbose",
   "suggest.echodocSupport": true,

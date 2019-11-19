@@ -2,8 +2,8 @@ font:
   normal:
     family: DankMono Nerd Font
   italic:
-    family: Dank Mono Nerd Font
-  size: 10
+    family: DankMono Nerd Font
+  size: 16
 # Colors
 colors:
   # Default colors
@@ -37,3 +37,5 @@ colors:
     magenta: "0xFB94FF"
     cyan: "0x80FCFF"
     white: "0x2D2B55"
+
+background_opacity: .7

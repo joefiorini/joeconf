@@ -25,9 +25,12 @@ call joeconf#mapping#major#define("sc", ":nohlsearch<CR>", "Clear search")
 " User-Specific
 "
 call joeconf#mapping#major#group("u", "User-Specific")
-call joeconf#mapping#major#group("uc", "Vim-config")
 call joeconf#mapping#major#group("us", "Shell-config")
 call joeconf#mapping#major#group("ug", "Git-config")
+call joeconf#mapping#major#group("uv", "Vim-config")
+call joeconf#mapping#major#define("uvi", ":tab drop ~/.config/nvim/init.vim", "Init.vim")
+call joeconf#mapping#major#define("uvp", ":tab drop ~/.config/nvim/pack/joeconf/start/joeconf/config/Plugins.vim", "Plugins.vim")
+call joeconf#mapping#major#define("uvc", ":tab drop ~/.config/nvim/pack/joeconf/start/joeconf/config/Commands.vim", "Commands.vim")
 call joeconf#mapping#major#define("uce", ":EditVimConfig<cr>", "Edit Vim config")
 call joeconf#mapping#major#define("ucr", ":call joeconf#reload()<cr>", "Reload Vim config")
 call joeconf#mapping#major#define("use", ":tabe ~/.config/fish/config.fish<CR>", "Edit Fish config")

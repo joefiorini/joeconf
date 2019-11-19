@@ -1,2 +1,3 @@
 - link:
     ~/bin/share-screen: bin/share-screen.arch
+    ~/bin/start-dev: bin/start-dev
