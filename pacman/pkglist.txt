@@ -129,6 +129,7 @@ sway
 swayidle
 swaylock
 syslog-ng
+systemd-swap
 termite
 texinfo
 the_silver_searcher
