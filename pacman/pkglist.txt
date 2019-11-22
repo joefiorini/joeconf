@@ -27,6 +27,7 @@ ccls-git
 checkupdates-aur
 chromium-ozone
 clib
+cmatrix
 dex
 dhcpcd
 dialog
