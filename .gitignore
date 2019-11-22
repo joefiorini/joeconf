@@ -1,3 +1,4 @@
 nvim/undo
 # Some vim plugins write to pycache
 __pycache__
+fish/config/fish_variables
