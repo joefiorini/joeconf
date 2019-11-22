@@ -4,6 +4,7 @@
     /etc/pacman.d/hooks/packagelist.hook: pacman/packagelist.hook
     /etc/pacman.d/hooks/mirrorlist.hook: pacman/mirrorlist.hook
     /etc/snap-pac.conf: pacman/snap-pac.conf
+    /etc/snap-pac/root.conf: pacman/snap-pac-root.conf
 - shell:
     - command: pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort /etc/pkglist.txt))
       description: Install arch packages
