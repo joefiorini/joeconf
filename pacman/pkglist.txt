@@ -61,6 +61,7 @@ grim
 gtk-engine-murrine
 htop
 hub
+i3blocks
 ical2rem
 imagemagick
 imv
