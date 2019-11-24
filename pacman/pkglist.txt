@@ -23,6 +23,7 @@ broadcom-wl
 btrfs-progs
 cairo-ubuntu
 calc
+cbatticon
 ccls-git
 checkupdates-aur
 chromium-ozone
