@@ -100,6 +100,7 @@ openttd
 openttd-opengfx
 openttd-opensfx
 optipng
+otf-san-francisco
 pacman-contrib
 pacmatic
 pamixer
