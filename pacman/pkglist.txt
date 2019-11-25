@@ -90,6 +90,7 @@ neofetch
 neovim
 nerd-fonts-complete
 netctl
+networkmanager
 notify-desktop-git
 nototools-git
 nvimpager-git
