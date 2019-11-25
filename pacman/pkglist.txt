@@ -29,6 +29,7 @@ checkupdates-aur
 chromium-ozone
 clib
 cmatrix
+d-feet
 dex
 dhcpcd
 dialog
