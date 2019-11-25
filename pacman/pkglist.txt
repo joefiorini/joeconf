@@ -69,6 +69,7 @@ imv
 incron
 inetutils
 intel-ucode
+iw
 khal
 kitty
 kscreen
