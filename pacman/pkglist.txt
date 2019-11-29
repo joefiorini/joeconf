@@ -134,6 +134,7 @@ slack-term
 slurp
 snap-pac
 spotify
+stack-bin
 sudo
 sway
 swayidle
