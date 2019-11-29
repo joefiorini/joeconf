@@ -21,7 +21,6 @@ bluez-utils
 brightnessctl
 broadcom-wl
 btrfs-progs
-cabal-install
 cairo-ubuntu
 calc
 cbatticon
@@ -62,15 +61,7 @@ gnu-netcat
 google-chrome
 grim
 gtk-engine-murrine
-happy
-haskell-base16-bytestring
-haskell-cryptohash-sha256
-haskell-echo
-haskell-ed25519
-haskell-edit-distance
-haskell-hackage-security
-haskell-resolv
-haskell-tar
+haskell-ide-engine
 htop
 hub
 i3blocks
