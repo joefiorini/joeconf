@@ -1,0 +1,5 @@
+- link:
+    ~/.monky:
+        glob: true
+        path: monky/*
+
