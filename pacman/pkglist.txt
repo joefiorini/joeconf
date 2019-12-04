@@ -2,7 +2,6 @@
 alacritty
 alacritty-terminfo
 alsa-utils
-apparmor
 arc-firefox-theme
 arc-gtk-theme
 arc-icon-theme
@@ -60,7 +59,6 @@ glew-wayland
 glfw-wayland
 gnome-font-viewer
 gnu-netcat
-go-tools
 google-chrome
 grim
 gtk-engine-murrine
@@ -137,8 +135,8 @@ ruby-bundler
 slack-term
 slurp
 snap-pac
+snapd
 spotify
-squashfs-tools
 stack-bin
 sudo
 sway
