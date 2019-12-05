@@ -65,6 +65,7 @@ gtk-engine-murrine
 haskell-ide-engine
 htop
 hub
+hunspell-en_US
 i3blocks
 ical2rem
 imagemagick
@@ -77,6 +78,7 @@ iw
 khal
 kitty
 kscreen
+libjpeg6-turbo
 libnotify
 libtool
 linux
