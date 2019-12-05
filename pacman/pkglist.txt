@@ -93,6 +93,7 @@ gnome-software
 gnome-system-monitor
 gnome-terminal
 gnome-todo
+gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnome-video-effects
