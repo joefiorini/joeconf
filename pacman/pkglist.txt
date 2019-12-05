@@ -71,6 +71,7 @@ imagemagick
 imv
 incron
 inetutils
+insomnia
 intel-ucode
 iw
 khal
