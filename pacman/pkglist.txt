@@ -88,6 +88,7 @@ gnome-music
 gnome-photos
 gnome-remote-desktop
 gnome-screenshot
+gnome-shell-extension-arch-update
 gnome-shell-extensions
 gnome-software
 gnome-system-monitor
