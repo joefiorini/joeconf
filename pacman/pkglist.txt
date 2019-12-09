@@ -153,6 +153,7 @@ nototools-git
 nvimpager-git
 obs-gnome-screencast
 obs-studio
+ocs-url
 opencl-headers
 openssh
 openttd
