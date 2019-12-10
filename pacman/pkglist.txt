@@ -188,6 +188,7 @@ remind
 ripgrep
 ruby
 ruby-bundler
+ruby-thor
 rygel
 simple-scan
 slack-term
