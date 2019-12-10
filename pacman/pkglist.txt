@@ -132,6 +132,7 @@ libnotify
 libtool
 linux
 linux-firmware
+lsdesktopf
 lsix
 lxappearance
 ly
