@@ -63,6 +63,7 @@ gdb
 gdm
 gebaar-libinput-git
 gedit
+gendesk
 gist
 glew-wayland
 glfw-wayland
