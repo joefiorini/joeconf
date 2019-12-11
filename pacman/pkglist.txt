@@ -204,6 +204,7 @@ swayidle
 swaylock
 syslog-ng
 termite
+testdisk
 texinfo
 the_silver_searcher
 time
