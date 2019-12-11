@@ -33,6 +33,7 @@ chromium-ozone
 clib
 cmatrix
 d-feet
+darcs
 dex
 dhcpcd
 dialog
