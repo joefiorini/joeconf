@@ -116,6 +116,7 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 haskell-ide-engine
+hfsprogs
 htop
 hub
 i3blocks
