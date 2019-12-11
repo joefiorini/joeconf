@@ -32,7 +32,6 @@ chrome-gnome-shell-git
 clib
 cmatrix
 d-feet
-darcs
 dex
 dhcpcd
 dialog
