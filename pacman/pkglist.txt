@@ -172,7 +172,6 @@ pandoc
 patch
 pavucontrol
 pkgconf
-plasma-wayland-session
 plymouth
 plymouth-theme-aperture-git
 pulseaudio-alsa
