@@ -29,7 +29,6 @@ ccls-git
 checkupdates-aur
 cheese
 chrome-gnome-shell-git
-chromium-ozone
 clib
 cmatrix
 d-feet
@@ -104,6 +103,7 @@ gnome-video-effects
 gnome-weather
 gnu-netcat
 google-chrome
+gperftools
 grilo-plugins
 grim
 gtk-engine-murrine
@@ -129,7 +129,7 @@ intel-ucode
 iw
 khal
 kitty
-kscreen
+leveldb
 libnotify
 libtool
 linux
