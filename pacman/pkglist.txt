@@ -39,6 +39,7 @@ dialog
 docker
 docker-compose
 doxygen
+duc
 elinks
 elvish
 eog
@@ -103,7 +104,6 @@ gnome-video-effects
 gnome-weather
 gnu-netcat
 google-chrome
-gperftools
 grilo-plugins
 grim
 gtk-engine-murrine
@@ -129,7 +129,6 @@ intel-ucode
 iw
 khal
 kitty
-leveldb
 libnotify
 libtool
 linux
