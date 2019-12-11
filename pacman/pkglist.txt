@@ -103,6 +103,7 @@ gnome-video-effects
 gnome-weather
 gnu-netcat
 google-chrome
+gparted
 grilo-plugins
 grim
 gtk-engine-murrine
