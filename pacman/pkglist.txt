@@ -35,6 +35,8 @@ d-feet
 dex
 dhcpcd
 dialog
+docbook-xml
+docbook-xsl
 docker
 docker-compose
 doxygen
@@ -67,6 +69,7 @@ gendesk
 gist
 glew-wayland
 glfw-wayland
+glib2-docs
 gnome-backgrounds
 gnome-books
 gnome-boxes
@@ -102,10 +105,12 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
+gobject-introspection
 google-chrome
 gparted
 grilo-plugins
 grim
+gtk-doc
 gtk-engine-murrine
 gvfs
 gvfs-afc
@@ -127,6 +132,7 @@ incron
 inetutils
 insomnia
 intel-ucode
+intltool
 iw
 khal
 kitty
@@ -143,6 +149,7 @@ macbook-lighter
 make
 mako
 man-db
+meson
 mousetweaks
 nano
 nautilus
@@ -152,6 +159,7 @@ nerd-fonts-complete
 netctl
 network-manager-applet
 networkmanager
+ninja
 notify-desktop-git
 nototools-git
 nvimpager-git
@@ -172,12 +180,18 @@ pamixer
 pandoc
 patch
 pavucontrol
+perl-xml-parser
 pkgconf
 plymouth
 plymouth-theme-aperture-git
 polkit-gnome
 pulseaudio-alsa
+python-anytree
+python-beaker
 python-booleanoperations
+python-lxml
+python-mako
+python-markdown
 python-pip
 python-pynvim
 python-unicodedata2
