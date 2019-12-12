@@ -22,6 +22,7 @@ bluez-utils
 brightnessctl
 broadcom-wl
 btrfs-progs
+bullet
 cairo-ubuntu
 calc
 cbatticon
@@ -39,6 +40,7 @@ docker
 docker-compose
 doxygen
 duc
+efl
 elinks
 elvish
 eog
@@ -132,6 +134,7 @@ khal
 kitty
 libnotify
 libtool
+libxp
 linux
 linux-firmware
 lsdesktopf
@@ -158,6 +161,7 @@ obs-gnome-screencast
 obs-studio
 ocs-url
 opencl-headers
+openjpeg
 openssh
 openttd
 openttd-opengfx
