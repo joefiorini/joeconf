@@ -150,7 +150,6 @@ neofetch
 neovim
 nerd-fonts-complete
 netctl
-network-manager-applet
 networkmanager
 notify-desktop-git
 nototools-git
