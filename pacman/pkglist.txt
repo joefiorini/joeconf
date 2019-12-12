@@ -175,6 +175,7 @@ pkgconf
 plymouth
 plymouth-theme-aperture-git
 polkit-efl-git
+polkit-gnome
 pulseaudio-alsa
 python-booleanoperations
 python-pip
