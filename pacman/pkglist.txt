@@ -200,6 +200,7 @@ slack-term
 slurp
 snap-pac
 snapd
+sound-theme-smooth
 spotify
 stack-bin
 sudo
