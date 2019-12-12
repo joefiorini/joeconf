@@ -174,9 +174,9 @@ pavucontrol
 pkgconf
 plymouth
 plymouth-theme-aperture-git
+polkit-efl-git
 pulseaudio-alsa
 python-booleanoperations
-python-efl
 python-pip
 python-pynvim
 python-unicodedata2
