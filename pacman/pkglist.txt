@@ -145,7 +145,6 @@ macbook-lighter
 make
 mako
 man-db
-meson
 mousetweaks
 nano
 nautilus
@@ -155,7 +154,6 @@ nerd-fonts-complete
 netctl
 network-manager-applet
 networkmanager
-ninja
 notify-desktop-git
 nototools-git
 nvimpager-git
