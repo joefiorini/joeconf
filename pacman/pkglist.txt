@@ -46,7 +46,6 @@ elinks
 elvish
 eog
 epiphany
-eventd-git
 evince
 fakeroot
 fcron
