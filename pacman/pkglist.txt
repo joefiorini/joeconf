@@ -35,6 +35,8 @@ d-feet
 dex
 dhcpcd
 dialog
+docbook-xml
+docbook-xsl
 docker
 docker-compose
 doxygen
