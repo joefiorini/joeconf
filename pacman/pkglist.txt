@@ -30,6 +30,7 @@ checkupdates-aur
 cheese
 chrome-gnome-shell-git
 clib
+cmake
 cmatrix
 d-feet
 dex
