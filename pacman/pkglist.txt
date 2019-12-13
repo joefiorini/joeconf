@@ -233,7 +233,6 @@ way-cooler-git
 waybar
 wayland-log-reader-git
 wayland-wall-git
-weechat
 weston
 wf-recorder-git
 which
