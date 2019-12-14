@@ -195,6 +195,7 @@ ranger
 reflector
 remind
 ripgrep
+rofi
 ruby
 ruby-bundler
 ruby-thor
