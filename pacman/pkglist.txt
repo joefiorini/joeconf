@@ -46,6 +46,7 @@ elinks
 elvish
 eog
 epiphany
+eventd
 evince
 fakeroot
 fcron
