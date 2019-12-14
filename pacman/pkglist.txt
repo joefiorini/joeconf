@@ -229,6 +229,7 @@ valgrind
 vdirsyncer
 vino
 vulkan-intel
+w3m
 way-cooler-git
 waybar
 wayland-log-reader-git
