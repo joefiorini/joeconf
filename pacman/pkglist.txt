@@ -171,6 +171,7 @@ orca
 otf-san-francisco
 pacman-contrib
 pacmatic
+pacolog
 pamixer
 pandoc
 patch
@@ -229,7 +230,6 @@ valgrind
 vdirsyncer
 vino
 vulkan-intel
-w3m
 way-cooler-git
 waybar
 wayland-log-reader-git
