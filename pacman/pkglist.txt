@@ -146,6 +146,7 @@ macbook-lighter
 make
 mako
 man-db
+mercurial
 mousetweaks
 nano
 nautilus
