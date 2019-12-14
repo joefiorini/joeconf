@@ -146,7 +146,6 @@ macbook-lighter
 make
 mako
 man-db
-mercurial
 mousetweaks
 nano
 nautilus
@@ -241,6 +240,7 @@ which
 wl-clipboard
 wld-git
 wlrobs-hg
+wofi-hg
 wpa_supplicant
 xdg-desktop-portal
 xdg-user-dirs
