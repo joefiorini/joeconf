@@ -208,6 +208,7 @@ snap-pac
 snapd
 sound-theme-smooth
 spotify
+spotifyd-bin-full
 stack-bin
 sudo
 sushi
