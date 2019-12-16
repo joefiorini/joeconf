@@ -17,6 +17,7 @@ bcwc-pcie-git
 bemenu-git
 binutils
 bison
+blueman
 bluez
 bluez-utils
 brightnessctl
