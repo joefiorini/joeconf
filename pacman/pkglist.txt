@@ -7,6 +7,7 @@ arc-gtk-theme
 arc-icon-theme
 archlinux-wallpaper
 asciiquarium
+aspell-en
 autoconf
 automake
 autotiling
