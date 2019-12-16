@@ -178,6 +178,7 @@ pandoc
 patch
 pavucontrol
 pkgconf
+playerctl
 plymouth
 plymouth-theme-aperture-git
 polkit-gnome
