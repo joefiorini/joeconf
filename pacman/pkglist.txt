@@ -70,6 +70,7 @@ gdm
 gebaar-libinput-git
 gedit
 gendesk
+ghc
 gist
 glew-wayland
 glfw-wayland
