@@ -24,6 +24,7 @@ bluez-utils
 brightnessctl
 broadcom-wl
 btrfs-progs
+cabal-install
 cairo-ubuntu
 calc
 cbatticon
