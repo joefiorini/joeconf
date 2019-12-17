@@ -183,7 +183,6 @@ pavucontrol
 pkgconf
 playerctl
 plymouth
-plymouth-theme-aperture-git
 polkit-gnome
 pulseaudio-alsa
 python-booleanoperations
