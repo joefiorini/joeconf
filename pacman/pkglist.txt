@@ -220,7 +220,6 @@ sway
 swayidle
 swaylock
 syslog-ng
-systemd-swap
 termite
 testdisk
 texinfo
