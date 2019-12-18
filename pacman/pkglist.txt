@@ -201,7 +201,6 @@ remind
 ripgrep
 rofi
 ruby
-ruby-bundler
 ruby-thor
 rygel
 simple-scan
