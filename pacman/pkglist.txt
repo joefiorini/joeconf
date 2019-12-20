@@ -37,6 +37,7 @@ cmake
 cmatrix
 d-feet
 dex
+dhall-bin
 dhcpcd
 dialog
 docbook-xml
