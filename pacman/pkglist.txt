@@ -39,6 +39,7 @@ d-feet
 dex
 dhall-bin
 dhall-json-bin
+dhall-lsp-server-bin
 dhcpcd
 dialog
 docbook-xml
