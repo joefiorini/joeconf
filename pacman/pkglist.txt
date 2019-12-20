@@ -185,18 +185,12 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-apipkg
 python-booleanoperations
-python-iniconfig
 python-libevdev
 python-pip
-python-pluggy
-python-py
 python-pynvim
-python-pytest
 python-pyudev
 python-unicodedata2
-python-wcwidth
 python-websocket-client
 python2-pynvim
 qt5-wayland
@@ -208,6 +202,7 @@ ripgrep
 rofi
 ruby
 ruby-thor
+rustup
 rygel
 simple-scan
 slack-term
