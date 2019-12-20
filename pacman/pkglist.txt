@@ -38,6 +38,7 @@ cmatrix
 d-feet
 dex
 dhall-bin
+dhall-json-bin
 dhcpcd
 dialog
 docbook-xml
