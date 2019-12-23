@@ -141,7 +141,6 @@ insomnia
 intel-ucode
 iw
 khal
-kitty
 libnotify
 libtool
 linux
