@@ -139,7 +139,6 @@ incron
 inetutils
 insomnia
 intel-ucode
-intltool
 iw
 khal
 libnotify
@@ -160,6 +159,7 @@ nautilus
 neofetch
 neovim
 nerd-fonts-complete
+netactview
 netctl
 network-manager-applet
 networkmanager
@@ -184,7 +184,6 @@ pamixer
 pandoc
 patch
 pavucontrol
-perl-xml-parser
 pkgconf
 playerctl
 plymouth
