@@ -141,6 +141,7 @@ insomnia
 intel-ucode
 iw
 khal
+libcurl-openssl-1.0
 libnotify
 libtool
 linux
@@ -189,7 +190,6 @@ plymouth
 polkit-gnome
 pulseaudio-alsa
 python-booleanoperations
-python-cheetah3
 python-libevdev
 python-pip
 python-pynvim
