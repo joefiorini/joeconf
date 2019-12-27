@@ -141,7 +141,6 @@ insomnia
 intel-ucode
 iw
 khal
-libcurl-openssl-1.0
 libnotify
 libtool
 linux
@@ -154,6 +153,7 @@ m4
 make
 mako
 man-db
+mongodb-bin
 mousetweaks
 nano
 nautilus
