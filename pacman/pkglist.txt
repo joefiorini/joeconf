@@ -153,6 +153,7 @@ m4
 make
 mako
 man-db
+mercurial
 mousetweaks
 nano
 nautilus
@@ -195,7 +196,17 @@ python-pynvim
 python-pyudev
 python-unicodedata2
 python-websocket-client
+python2-apipkg
+python2-atomicwrites
+python2-attrs
+python2-funcsigs
+python2-iniconfig
+python2-pluggy
+python2-py
 python2-pynvim
+python2-pytest
+python2-pytest-runner
+python2-wcwidth
 qt5-wayland
 qutebrowser
 ranger
