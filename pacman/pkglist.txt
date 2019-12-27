@@ -153,7 +153,6 @@ m4
 make
 mako
 man-db
-mongodb-bin
 mousetweaks
 nano
 nautilus
@@ -233,6 +232,7 @@ tracker
 tracker-miners
 ttf-material-design-icons-git
 unicode-emoji
+unifi
 unzip
 upower
 v4l2loopback-dkms-git
