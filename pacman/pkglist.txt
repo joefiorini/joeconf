@@ -139,6 +139,7 @@ incron
 inetutils
 insomnia
 intel-ucode
+intltool
 iw
 khal
 libnotify
@@ -183,6 +184,7 @@ pamixer
 pandoc
 patch
 pavucontrol
+perl-xml-parser
 pkgconf
 playerctl
 plymouth
