@@ -238,6 +238,7 @@ v4l2loopback-dkms-git
 valgrind
 vdirsyncer
 vino
+vlc
 vulkan-intel
 way-cooler-git
 waybar
