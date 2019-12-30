@@ -188,7 +188,6 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-booleanoperations
 python-libevdev
 python-pip
 python-pynvim
