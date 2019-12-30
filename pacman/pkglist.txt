@@ -164,7 +164,6 @@ netctl
 network-manager-applet
 networkmanager
 notify-desktop-git
-nototools-git
 nvimpager-git
 obs-gnome-screencast
 obs-studio
