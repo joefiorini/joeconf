@@ -190,6 +190,7 @@ plymouth
 polkit-gnome
 pulseaudio-alsa
 python-booleanoperations
+python-fontmath
 python-libevdev
 python-pip
 python-pynvim
