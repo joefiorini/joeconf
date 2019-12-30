@@ -191,7 +191,6 @@ polkit-gnome
 pulseaudio-alsa
 python-booleanoperations
 python-fontmath
-python-fontpens
 python-libevdev
 python-pip
 python-pynvim
