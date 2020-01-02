@@ -50,7 +50,6 @@ docker-compose
 doxygen
 duc
 elinks
-elvish
 eog
 epiphany
 eventd
