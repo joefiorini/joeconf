@@ -47,7 +47,6 @@ docbook-xml
 docbook-xsl
 docker
 docker-compose
-doxygen
 duc
 elinks
 eog
