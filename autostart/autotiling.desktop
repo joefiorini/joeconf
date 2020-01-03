@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/usr/bin/autotiling
+Name=autotiling
+OnlyStartIn=sway
+Type=Application

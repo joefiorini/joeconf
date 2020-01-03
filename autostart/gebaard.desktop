@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/usr/bin/gebaard
+Name=gebaard
+OnlyStartIn=sway
+Categories=sway;i3
+Type=Application

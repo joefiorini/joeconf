@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Kanshi
+Comment=kanshi
+Exec=/sbin/kanshi
+Icon=kanshi
+Terminal=false
+StartupNotify=false
+Categories=Application;
