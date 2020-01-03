@@ -9,7 +9,6 @@ archlinux-wallpaper
 asciiquarium
 aspell-en
 autoconf
-autoconf-archive
 automake
 autotiling
 aws-cli
@@ -78,7 +77,6 @@ ghc
 gist
 glew-wayland
 glfw-wayland
-glib2-docs
 gnome-backgrounds
 gnome-books
 gnome-boxes
@@ -87,7 +85,6 @@ gnome-calendar
 gnome-characters
 gnome-clocks
 gnome-color-manager
-gnome-common
 gnome-contacts
 gnome-control-center
 gnome-dictionary
@@ -115,12 +112,10 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
-gobject-introspection
 google-chrome
 gparted
 grilo-plugins
 grim
-gtk-doc
 gtk-engine-murrine
 gvfs
 gvfs-afc
@@ -145,8 +140,6 @@ incron
 inetutils
 insomnia
 intel-ucode
-intltool
-itstool
 iw
 kanshi
 khal
@@ -161,7 +154,6 @@ ly
 m4
 make
 mako
-mallard-ducktype
 man-db
 mousetweaks
 nano
@@ -193,18 +185,12 @@ pamixer
 pandoc
 patch
 pavucontrol
-perl-xml-parser
 pkgconf
 playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-anytree
-python-beaker
 python-libevdev
-python-lxml
-python-mako
-python-markdown
 python-pip
 python-pynvim
 python-pyudev
@@ -275,5 +261,4 @@ xorg-server-xwayland
 xorg-xev
 yarn
 yay
-yelp-tools
 zopfli
