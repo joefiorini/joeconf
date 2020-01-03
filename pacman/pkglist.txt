@@ -142,6 +142,7 @@ inetutils
 insomnia
 intel-ucode
 iw
+kanshi
 khal
 libnotify
 libtool
