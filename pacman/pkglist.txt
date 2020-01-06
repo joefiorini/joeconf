@@ -248,6 +248,7 @@ wayland-log-reader-git
 wayland-wall-git
 weston
 wf-recorder-git
+wget
 which
 wl-clipboard
 wld-git
