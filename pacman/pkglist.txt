@@ -112,6 +112,8 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
+go
+go-tools
 google-chrome
 google-chrome-beta
 gparted
@@ -126,6 +128,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+happy
 haskell-ide-engine
 hfsprogs
 htop
