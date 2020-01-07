@@ -23,6 +23,7 @@ bluez
 bluez-utils
 brightnessctl
 broadcom-wl
+broot
 btrfs-progs
 cabal-install
 cairo-ubuntu
