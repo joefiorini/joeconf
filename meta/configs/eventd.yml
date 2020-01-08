@@ -1,0 +1,12 @@
+- link:
+    ~/.config/eventd:
+        glob: true
+        path: eventd/*.conf
+    ~/.config/systemd/user:
+        glob: true
+        path: eventd/*.service
+- link:
+    ~/.config/systemd/user:
+        glob: true
+        path: eventd/*.path
+
