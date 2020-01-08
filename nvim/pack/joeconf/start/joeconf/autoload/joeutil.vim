@@ -17,3 +17,8 @@ function! joeutil#set_deep(dict, path, value)
     
   return new_dict
 endfunction
+
+function! joeutil#search_in_directory()
+  let directory = expand("%:p:h")
+  exec "Clap grep " . directory
+endfunction

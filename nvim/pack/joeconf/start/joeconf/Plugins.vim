@@ -13,6 +13,7 @@ call minpac#add('plasticboy/vim-markdown')
 call minpac#add('dag/vim-fish')
 call minpac#add('reasonml-editor/vim-reason-plus')
 call minpac#add('styled-components/vim-styled-components', { 'branch': 'main' })
+call minpac#add('vmchale/dhall-vim')
 
 " GUI
 call minpac#add('Rigellute/shades-of-purple.vim')
