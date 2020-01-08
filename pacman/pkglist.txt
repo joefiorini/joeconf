@@ -75,7 +75,6 @@ gebaar-libinput-git
 gedit
 gendesk
 ghc
-gist
 glew-wayland
 glfw-wayland
 gnome-backgrounds
@@ -206,9 +205,6 @@ reflector
 remind
 ripgrep
 rofi
-ruby
-ruby-irb
-ruby-thor
 rustup
 rygel
 simple-scan
