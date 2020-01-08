@@ -8,6 +8,10 @@ if test -d $HOME/bin
   set -a PATH $HOME/bin
 end
 
+if test -d $HOME/.local/bin
+  set -a PATH $HOME/.local/bin
+end
+
 if test -d /opt/bin
   set -a PATH /opt/bin
 end
@@ -29,3 +33,6 @@ end
 if test -d $HOME/.cargo
   set -a PATH $HOME/.cargo/bin
 end
+
+set -x YVM_DIR /home/joe/.yvm
+. $YVM_DIR/yvm.fish
