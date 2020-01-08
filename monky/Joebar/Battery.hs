@@ -19,9 +19,9 @@ instance PollModule BatteryHandle where
     level <- getCurrentLevel battery
     state <- getCurrentStatus battery
     time <- getTimeLeft battery
-    return [ MonkyPlain $ getBatteryIcon level state
-        , MonkyPlain $ getPercentString level
-        ]
+    return [ MonkyPlain $
+              T.append (getBatteryIcon level state) (getPercentString level)
+           ]
 
 getBatteryIcon :: Int -> BatteryState -> Text
 getBatteryIcon percent state =
@@ -53,7 +53,7 @@ getChargingIcon a
 
 getDischargingIcon :: Int -> Text
 getDischargingIcon a
-      | a == 100 = "\62840"
+      | a `elem` [100..110] = "\62840"
       | a `elem` [90..99] = "\62849"
       | a `elem` [80..89] = "\62848"
       | a `elem` [70..79] = "\62847"
