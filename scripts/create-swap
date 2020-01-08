@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+mkdir /var/swap
+mount /dev/sda6 /var/swap
+
+touch /var/swap/swapfile
+truncate -s 0 /var/swap/swapfile
+chattr +C /var/swap/swapfile
+btrfs property set /var/swap/swapfile compression none
+
+fallocate -l 25G /var/swap/swapfile
+
+chmod 600 /var/swap/swapfile
+mkswap /var/swap/swapfile
+swapon /var/swap/swapfile
+
