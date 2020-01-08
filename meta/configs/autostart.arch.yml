@@ -1,0 +1,4 @@
+- link:
+    ~/.config/autostart:
+        glob: true
+        path: autostart/*
