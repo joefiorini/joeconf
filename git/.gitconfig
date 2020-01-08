@@ -1,5 +1,5 @@
 [user]
-	name = Joe Fiorini
+	name = Joe
 	email = joe@joefiorini.com
 [github]
   token = 22b2f50b9ad4f484fd37c6f5eb51e695
@@ -28,6 +28,7 @@
   review = !nvim -p $(git files) +\"tabdo Gdiff $REVIEW_BASE\" +\"let g:gitgutter_diff_base = '$REVIEW_BASE'\"
   develop = fetch origin develop:develop
   set-develop = reset --hard origin/develop
+  zco = "!git checkout $(echo \"$(git for-each-ref --sort=-committerdate refs --format=\"%(refname:short)\")\" | fzf +m | sed \"s/.* //\" | sed \"s#remotes/[^/]*/##\")"
 
 
   s   = status
