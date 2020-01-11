@@ -207,6 +207,7 @@ ripgrep
 rofi
 rustup
 rygel
+scratch
 simple-scan
 slack-term
 slurp
