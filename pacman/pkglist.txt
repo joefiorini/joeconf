@@ -144,6 +144,7 @@ intel-ucode
 iw
 kanshi
 khal
+krita
 libnotify
 libtool
 linux
