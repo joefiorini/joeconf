@@ -227,7 +227,6 @@ sway
 swayidle
 swaylock
 syslog-ng
-terminology
 termite
 testdisk
 texinfo
