@@ -157,7 +157,6 @@ m4
 make
 mako
 man-db
-mate-terminal
 mousetweaks
 nano
 nautilus
