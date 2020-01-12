@@ -145,6 +145,7 @@ iw
 kanshi
 khal
 krita
+libcprime
 libnotify
 libtool
 linux
@@ -199,7 +200,6 @@ python-pyudev
 python-unicodedata2
 python-websocket-client
 python2-pynvim
-qt5-connectivity
 qt5-wayland
 qterminal
 qutebrowser
