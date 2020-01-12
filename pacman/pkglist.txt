@@ -204,6 +204,7 @@ qutebrowser
 ranger
 reflector
 remind
+retext
 ripgrep
 rofi
 rustup
