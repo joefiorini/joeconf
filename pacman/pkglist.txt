@@ -210,7 +210,6 @@ ripgrep
 rofi
 rustup
 rygel
-sakura
 scratch
 simple-scan
 slack-term
