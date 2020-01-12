@@ -36,6 +36,7 @@ chrome-gnome-shell-git
 clib
 cmake
 cmatrix
+corefm
 d-feet
 dex
 dhall-bash-bin
@@ -145,7 +146,6 @@ iw
 kanshi
 khal
 krita
-libcsys
 libnotify
 libtool
 linux
