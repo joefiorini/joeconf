@@ -145,7 +145,7 @@ iw
 kanshi
 khal
 krita
-libcprime
+libcsys
 libnotify
 libtool
 linux
