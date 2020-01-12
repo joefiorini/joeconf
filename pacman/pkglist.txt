@@ -37,6 +37,7 @@ clib
 cmake
 cmatrix
 corefm
+coreterminal
 d-feet
 dex
 dhall-bash-bin
