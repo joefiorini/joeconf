@@ -152,7 +152,6 @@ linux-firmware
 lsdesktopf
 lsix
 lxappearance
-lxterminal
 ly
 m4
 make
