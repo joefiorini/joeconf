@@ -201,6 +201,7 @@ python-unicodedata2
 python-websocket-client
 python2-pynvim
 qt5-wayland
+qterminal
 qutebrowser
 ranger
 reflector
@@ -210,6 +211,7 @@ ripgrep
 rofi
 rustup
 rygel
+sakura
 scratch
 simple-scan
 slack-term
@@ -227,6 +229,7 @@ sway
 swayidle
 swaylock
 syslog-ng
+terminology
 termite
 testdisk
 texinfo
