@@ -142,6 +142,7 @@ imagemagick
 imv
 incron
 inetutils
+informant
 insomnia
 intel-ucode
 iw
@@ -195,12 +196,10 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-feedparser
 python-libevdev
 python-pip
 python-pynvim
 python-pyudev
-python-sgmllib
 python-unicodedata2
 python-websocket-client
 python2-pynvim
