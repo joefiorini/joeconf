@@ -231,6 +231,7 @@ sushi
 sway
 swayidle
 swaylock
+swaylock-blur-bin
 syslog-ng
 termite
 testdisk
