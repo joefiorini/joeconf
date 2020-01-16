@@ -130,7 +130,6 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 haskell-ide-engine
-havoc-git
 hfsprogs
 htop
 hub
