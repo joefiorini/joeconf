@@ -213,6 +213,7 @@ retext
 ripgrep
 rofi
 rustup
+rx-bin
 rygel
 scratch
 simple-scan
