@@ -241,6 +241,7 @@ time
 totem
 tracker
 tracker-miners
+ttf-jetbrains-mono
 ttf-material-design-icons-git
 unicode-emoji
 unifi
