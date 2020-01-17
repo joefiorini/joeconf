@@ -147,6 +147,7 @@ intel-ucode
 iw
 kanshi
 khal
+kitty
 krita
 libnotify
 libtool
