@@ -232,6 +232,7 @@ swayidle
 swaylock
 swaylock-blur-bin
 syslog-ng
+systemd-manager
 termite
 testdisk
 texinfo
