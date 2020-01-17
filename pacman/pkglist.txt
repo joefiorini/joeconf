@@ -36,7 +36,6 @@ chrome-gnome-shell-git
 clib
 cmake
 cmatrix
-corefm
 coreterminal
 d-feet
 dex
@@ -196,7 +195,6 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-html2text
 python-libevdev
 python-pip
 python-pynvim
