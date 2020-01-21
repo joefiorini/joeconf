@@ -274,5 +274,4 @@ xorg-server-xwayland
 xorg-xev
 yarn
 yay
-zoom
 zopfli
