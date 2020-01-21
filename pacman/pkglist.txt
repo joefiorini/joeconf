@@ -150,8 +150,6 @@ kanshi
 khal
 kitty
 krita
-libdbusmenu-gtk2
-libindicator-gtk2
 libnotify
 libtool
 linux
@@ -193,7 +191,6 @@ pacolog
 pamixer
 pandoc
 patch
-patchelf
 pavucontrol
 pkgconf
 playerctl
