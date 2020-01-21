@@ -1,4 +1,5 @@
 1password-cli
+akira-git
 alacritty
 alacritty-terminfo
 alsa-utils
@@ -79,7 +80,6 @@ gendesk
 ghc
 glew-wayland
 glfw-wayland
-glib2-docs
 gnome-backgrounds
 gnome-books
 gnome-boxes
@@ -115,18 +115,12 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
-goocanvas
 google-chrome
 google-chrome-beta
 gparted
-granite
-graphviz
 grilo-plugins
 grim
-gtk-doc
 gtk-engine-murrine
-gtksourceview3
-gts
 gvfs
 gvfs-afc
 gvfs-goa
@@ -176,7 +170,6 @@ neovim
 nerd-fonts-complete
 netactview
 netctl
-netpbm
 network-manager-applet
 networkmanager
 notify-desktop-git
@@ -204,9 +197,7 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-anytree
 python-libevdev
-python-lxml
 python-pip
 python-pynvim
 python-pyudev
@@ -259,7 +250,6 @@ unifi
 unzip
 upower
 v4l2loopback-dkms-git
-vala
 valgrind
 vdirsyncer
 vino
