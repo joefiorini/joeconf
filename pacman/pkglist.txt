@@ -78,6 +78,7 @@ gebaar-libinput-git
 gedit
 gendesk
 ghc
+ghc-static
 glew-wayland
 glfw-wayland
 gnome-backgrounds
