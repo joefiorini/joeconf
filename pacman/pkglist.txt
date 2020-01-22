@@ -147,6 +147,7 @@ kanshi
 khal
 kitty
 krita
+libcurl-compat
 libnotify
 libtool
 linux
