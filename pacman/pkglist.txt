@@ -127,7 +127,6 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-haskell-ide-engine
 hfsprogs
 htop
 hub
