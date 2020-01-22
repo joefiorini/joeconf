@@ -26,7 +26,6 @@ brightnessctl
 broadcom-wl
 broot
 btrfs-progs
-cabal-install
 cairo-ubuntu
 calc
 cbatticon
@@ -77,8 +76,6 @@ gdm
 gebaar-libinput-git
 gedit
 gendesk
-ghc
-ghc-static
 glew-wayland
 glfw-wayland
 gnome-backgrounds
