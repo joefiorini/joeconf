@@ -25,7 +25,6 @@ bluez-utils
 brightnessctl
 broadcom-wl
 broot
-browsh-bin
 btrfs-progs
 cabal-install
 cairo-ubuntu
