@@ -233,6 +233,7 @@ swaylock
 swaylock-blur-bin
 syslog-ng
 systemd-manager
+taskell-bin
 termite
 testdisk
 texinfo
