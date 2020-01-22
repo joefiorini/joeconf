@@ -147,7 +147,6 @@ kanshi
 khal
 kitty
 krita
-libcurl-compat
 libnotify
 libtool
 linux
@@ -217,6 +216,7 @@ rx-bin
 rygel
 scratch
 simple-scan
+slack-desktop
 slack-term
 slurp
 snap-pac
