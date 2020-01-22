@@ -224,7 +224,6 @@ snapd
 sound-theme-smooth
 spotify
 spotifyd-bin-full
-stack-bin
 stanza
 sudo
 sushi
