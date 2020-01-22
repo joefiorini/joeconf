@@ -192,6 +192,7 @@ pamixer
 pandoc
 patch
 pavucontrol
+pencil
 pkgconf
 playerctl
 plymouth
