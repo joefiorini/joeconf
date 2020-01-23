@@ -162,6 +162,7 @@ mako
 man-db
 mousetweaks
 nano
+nasm
 nautilus
 neofetch
 neovim
