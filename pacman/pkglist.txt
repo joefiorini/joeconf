@@ -53,7 +53,6 @@ duc
 elinks
 eog
 epiphany
-eventd
 evince
 extraterm-bin
 fakeroot
