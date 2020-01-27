@@ -240,6 +240,7 @@ testdisk
 texinfo
 the_silver_searcher
 time
+tinyproxy
 totem
 traceroute
 tracker
