@@ -1,4 +1,3 @@
-1password-cli
 akira-git
 alacritty
 alacritty-terminfo
