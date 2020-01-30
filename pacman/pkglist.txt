@@ -170,6 +170,7 @@ netactview
 netctl
 network-manager-applet
 networkmanager
+nodejs-serverless
 notify-desktop-git
 nvimpager-git
 obs-gnome-screencast
