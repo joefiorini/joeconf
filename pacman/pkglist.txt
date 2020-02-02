@@ -213,6 +213,7 @@ reflector
 remind
 retext
 ripgrep
+rlwrap
 rofi
 rustup
 rx-bin
