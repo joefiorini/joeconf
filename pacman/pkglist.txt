@@ -280,5 +280,6 @@ xorg-xev
 yarn
 yay
 ydotool-git
+z3
 zoom
 zopfli
