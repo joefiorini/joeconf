@@ -219,6 +219,7 @@ rofi
 rustup
 rx-bin
 rygel
+scala
 scratch
 simple-scan
 slack-desktop
