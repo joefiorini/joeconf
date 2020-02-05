@@ -160,6 +160,7 @@ m4
 make
 mako
 man-db
+mercurial
 mousetweaks
 nano
 nasm
