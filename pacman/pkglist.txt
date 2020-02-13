@@ -193,7 +193,6 @@ pacman-contrib
 pacmatic
 pacolog
 pamixer
-pandoc
 patch
 pavucontrol
 pencil
