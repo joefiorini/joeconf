@@ -239,6 +239,7 @@ stanza
 sudo
 sushi
 sway
+sway-services-git
 swayidle
 swaylock
 swaylock-blur-bin
