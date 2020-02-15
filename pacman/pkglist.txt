@@ -11,7 +11,6 @@ asciiquarium
 aspell-en
 autoconf
 automake
-autotiling
 aws-cli
 baobab
 base
