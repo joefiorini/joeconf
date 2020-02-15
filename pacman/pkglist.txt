@@ -114,13 +114,13 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
-gobject-introspection
 google-chrome
 google-chrome-beta
 gparted
 grilo-plugins
 grim
 gtk-engine-murrine
+gtk-layer-shell-git
 gvfs
 gvfs-afc
 gvfs-goa
@@ -203,9 +203,7 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
-python-beaker
 python-libevdev
-python-mako
 python-pip
 python-pynvim
 python-pyudev
