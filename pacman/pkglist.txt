@@ -226,6 +226,7 @@ rygel
 scala
 scratch
 scribus
+sddm
 simple-scan
 slack-desktop
 slack-term
