@@ -21,6 +21,7 @@ bison
 blueman
 bluez
 bluez-utils
+boost
 brightnessctl
 broadcom-wl
 broot
@@ -148,6 +149,7 @@ kanshi
 khal
 kitty
 krita
+libimagequant
 libinput-gestures
 libnotify
 libtool
@@ -201,12 +203,19 @@ playerctl
 plymouth
 polkit-gnome
 pulseaudio-alsa
+python-cairocffi
+python-cairosvg
+python-cssselect2
+python-defusedxml
 python-libevdev
+python-pillow
 python-pip
 python-pynvim
 python-pyudev
+python-tinycss2
 python-unicodedata2
 python-websocket-client
+python-xcffib
 python-z3
 python2-pynvim
 qt5-wayland
