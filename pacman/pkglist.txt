@@ -246,6 +246,7 @@ swaylock
 swaylock-blur-bin
 syslog-ng
 systemd-manager
+systemd-swap
 taskell-bin
 terminus-font
 termite
