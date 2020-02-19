@@ -1,6 +1,5 @@
 akira-git
 alacritty
-alacritty-terminfo
 alsa-utils
 arc-firefox-theme
 arc-gtk-theme
