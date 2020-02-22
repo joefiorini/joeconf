@@ -50,6 +50,7 @@ docbook-xsl
 docker
 docker-compose
 duc
+dune
 elinks
 eog
 epiphany
