@@ -292,6 +292,7 @@ wpa_supplicant
 xdg-desktop-portal
 xdg-user-dirs
 xdg-user-dirs-gtk
+xdot
 xorg-server-xwayland
 xorg-xev
 yarn
