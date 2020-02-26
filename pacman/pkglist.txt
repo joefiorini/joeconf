@@ -116,6 +116,7 @@ gnu-netcat
 google-chrome
 google-chrome-beta
 gparted
+graphviz
 grilo-plugins
 grim
 gtk-engine-murrine
