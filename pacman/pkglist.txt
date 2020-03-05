@@ -180,7 +180,9 @@ notify-desktop-git
 nvimpager-git
 obs-gnome-screencast
 obs-studio
+ocaml
 ocs-url
+opam
 opencl-headers
 openssh
 openttd
