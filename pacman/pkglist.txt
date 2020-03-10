@@ -20,7 +20,6 @@ bison
 blueman
 bluez
 bluez-utils
-boost
 brightnessctl
 broadcom-wl
 broot
