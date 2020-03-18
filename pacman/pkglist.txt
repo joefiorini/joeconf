@@ -128,6 +128,7 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 hdparm
+help2man
 hfsprogs
 htop
 hub
@@ -199,6 +200,7 @@ pamixer
 patch
 pavucontrol
 pencil
+perl-locale-gettext
 pkgconf
 playerctl
 plymouth
