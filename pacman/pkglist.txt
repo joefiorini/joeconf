@@ -128,7 +128,6 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 hdparm
-help2man
 hfsprogs
 htop
 hub
@@ -200,7 +199,6 @@ pamixer
 patch
 pavucontrol
 pencil
-perl-locale-gettext
 pkgconf
 playerctl
 plymouth
@@ -241,6 +239,7 @@ sound-theme-smooth
 spotify
 spotifyd-bin-full
 stanza
+steam
 sudo
 sushi
 sway
