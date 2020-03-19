@@ -240,6 +240,7 @@ spotify
 spotifyd-bin-full
 stanza
 steam
+steamcmd
 sudo
 sushi
 sway
