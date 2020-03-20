@@ -224,6 +224,7 @@ retext
 ripgrep
 rlwrap
 rofi
+rsync
 rustup
 rx-bin
 rygel
