@@ -36,8 +36,6 @@ clib
 cmake
 cmatrix
 coreterminal
-cups
-cups-filters
 d-feet
 dex
 dhall-bash-bin
@@ -57,7 +55,6 @@ eog
 epiphany
 evince
 exo
-extra-cmake-modules
 extraterm-bin
 fakeroot
 fcron
@@ -154,11 +151,8 @@ kanshi
 khal
 kitty
 krita
-libfbclient
 libinput-gestures
-libmng
 libnotify
-libtommath
 libtool
 linux
 linux-firmware
@@ -171,8 +165,6 @@ macchanger
 make
 mako
 man-db
-mariadb-libs
-mercurial
 mousetweaks
 nano
 nasm
@@ -213,19 +205,17 @@ pkgconf
 playerctl
 plymouth
 polkit-gnome
-postgresql-libs
 pulseaudio-alsa
 python-libevdev
 python-pip
 python-pynvim
 python-pyudev
+python-sip-pyqt4
 python-unicodedata2
 python-websocket-client
 python-z3
-python2-numpy
-python2-opengl
 python2-pynvim
-qpdf
+python2-sip-pyqt4
 qt5-wayland
 qterminal
 qutebrowser
@@ -245,7 +235,6 @@ scratch
 scribus
 sddm
 simple-scan
-sip
 slack-desktop
 slack-term
 slurp
@@ -286,7 +275,6 @@ ttf-material-design-icons-git
 tumbler
 unicode-emoji
 unifi
-unixodbc
 unzip
 upower
 v4l2loopback-dkms-git
