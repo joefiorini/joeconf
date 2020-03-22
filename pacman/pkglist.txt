@@ -44,6 +44,7 @@ dhall-json-bin
 dhall-lsp-server-bin
 dhcpcd
 dialog
+dmidecode
 dnsmasq
 docbook-xml
 docbook-xsl
