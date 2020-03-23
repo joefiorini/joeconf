@@ -204,7 +204,6 @@ pavucontrol
 pencil
 pkgconf
 playerctl
-plymouth
 polkit-gnome
 pulseaudio-alsa
 python-libevdev
