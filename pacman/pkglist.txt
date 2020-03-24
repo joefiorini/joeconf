@@ -35,6 +35,7 @@ circleci-cli-bin
 clib
 cmake
 cmatrix
+code
 coreterminal
 d-feet
 dex
