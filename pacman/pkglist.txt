@@ -51,6 +51,7 @@ docbook-xml
 docbook-xsl
 docker
 docker-compose
+dotnet-sdk
 duc
 elinks
 eog
