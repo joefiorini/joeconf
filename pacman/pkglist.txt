@@ -54,6 +54,7 @@ docker-compose
 dotnet-sdk
 duc
 elinks
+elvish-bin
 eog
 epiphany
 evince
