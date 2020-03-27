@@ -224,7 +224,7 @@ qt5-wayland
 qterminal
 qutebrowser
 ranger
-rebol
+red
 reflector
 remind
 retext
