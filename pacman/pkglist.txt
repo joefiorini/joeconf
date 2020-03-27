@@ -155,6 +155,11 @@ kanshi
 khal
 kitty
 krita
+lib32-curl
+lib32-libidn2
+lib32-libpsl
+lib32-libssh2
+lib32-libunistring
 libinput-gestures
 libnotify
 libtool
