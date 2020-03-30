@@ -39,9 +39,6 @@ code
 coreterminal
 d-feet
 dex
-dhall-bin
-dhall-json-bin
-dhall-lsp-server-bin
 dhcpcd
 dialog
 dmidecode
@@ -240,7 +237,6 @@ scribus
 sddm
 simple-scan
 slack-desktop
-slack-term
 slurp
 snap-pac
 snapd
