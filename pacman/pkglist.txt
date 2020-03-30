@@ -39,7 +39,6 @@ code
 coreterminal
 d-feet
 dex
-dhall-bash-bin
 dhall-bin
 dhall-json-bin
 dhall-lsp-server-bin
