@@ -160,6 +160,7 @@ linux-firmware
 lsdesktopf
 lxappearance
 ly
+lynx
 m4
 macchanger
 make
