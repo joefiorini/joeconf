@@ -149,6 +149,7 @@ iw
 jome-git
 joyutils
 kanshi
+keyfuzz
 khal
 kitty
 krita
@@ -160,7 +161,6 @@ linux-firmware
 lsdesktopf
 lxappearance
 ly
-lynx
 m4
 macchanger
 make
