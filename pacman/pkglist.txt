@@ -20,7 +20,6 @@ bison
 blueman
 bluez
 bluez-utils
-boost
 brightnessctl
 broadcom-wl
 broot
@@ -302,6 +301,7 @@ wld-git
 wlrobs-hg
 wofi-hg
 wpa_supplicant
+xboxdrv
 xdg-desktop-portal
 xdg-user-dirs
 xdg-user-dirs-gtk
