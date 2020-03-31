@@ -54,6 +54,7 @@ elvish-bin
 eog
 epiphany
 evince
+evtest
 exo
 extraterm-bin
 fakeroot
