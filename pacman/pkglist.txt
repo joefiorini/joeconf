@@ -147,6 +147,7 @@ insomnia
 intel-ucode
 iw
 jome-git
+joyutils
 kanshi
 khal
 kitty
