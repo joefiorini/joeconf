@@ -45,6 +45,7 @@ dmidecode
 dnsmasq
 docbook-xml
 docbook-xsl
+docbook2x
 docker
 docker-compose
 dotnet-sdk
@@ -189,6 +190,8 @@ ocaml
 ocs-url
 opam
 opencl-headers
+openjade
+opensp
 openssh
 openttd
 openttd-opengfx
@@ -204,6 +207,12 @@ pamixer
 patch
 pavucontrol
 pencil
+perl-sgmls
+perl-xml-namespacesupport
+perl-xml-parser
+perl-xml-sax
+perl-xml-sax-base
+perl-xml-sax-expat
 pkgconf
 playerctl
 polkit-gnome
@@ -235,6 +244,7 @@ scala
 scratch
 scribus
 sddm
+sgml-common
 simple-scan
 slack-desktop
 slurp
