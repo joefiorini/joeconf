@@ -41,6 +41,7 @@ d-feet
 dex
 dhcpcd
 dialog
+discord
 dmidecode
 dnsmasq
 docbook-xml
