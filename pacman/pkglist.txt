@@ -49,6 +49,7 @@ docbook-xsl
 docker
 docker-compose
 dotnet-sdk
+downgrade
 duc
 elinks
 elvish-bin
