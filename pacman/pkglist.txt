@@ -290,7 +290,6 @@ vlc
 vulkan-intel
 watchman
 way-cooler-git
-waybar
 wayfire-git
 wayland-log-reader-git
 wayland-wall-git
