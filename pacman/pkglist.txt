@@ -9,7 +9,6 @@ artwiz-fonts
 asciiquarium
 aspell-en
 autoconf
-autoconf2.13
 automake
 aws-cli
 baobab
@@ -28,7 +27,6 @@ btrfs-progs
 cairo-ubuntu
 calc
 cbatticon
-cbindgen
 ccls-git
 checkupdates-aur
 cheese
@@ -134,7 +132,6 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-gyp
 hdparm
 hfsprogs
 htop
@@ -145,7 +142,6 @@ i3lock
 i3status
 ical2rem
 imagemagick
-imake
 imv
 incron
 inetutils
@@ -223,7 +219,6 @@ python-pyudev
 python-unicodedata2
 python-websocket-client
 python-z3
-python2-psutil
 python2-pynvim
 qt5-wayland
 qterminal
@@ -324,11 +319,9 @@ xfconf
 xfdesktop
 xfwm4
 xfwm4-themes
-xorg-server-xvfb
 xorg-server-xwayland
 xorg-xev
 yarn
-yasm
 yay
 ydotool-git
 z3
