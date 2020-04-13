@@ -61,9 +61,9 @@ exo
 extraterm-bin
 fakeroot
 fcron
-fedora-firefox-wayland-bin
 figlet
 file-roller
+firefox
 fish
 flatpak
 flex
