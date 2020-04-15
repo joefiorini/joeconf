@@ -27,6 +27,7 @@ broot
 btrfs-progs
 cairo-ubuntu
 calc
+camunda-modeler
 cbatticon
 ccls-git
 checkupdates-aur
