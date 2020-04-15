@@ -137,7 +137,6 @@ gvfs-smb
 hdparm
 hfsprogs
 htop
-hub
 i3-gaps
 i3blocks
 i3lock
