@@ -60,6 +60,7 @@ evince
 evtest
 exo
 extraterm-bin
+facetimehd-firmware
 fakeroot
 fcron
 figlet
