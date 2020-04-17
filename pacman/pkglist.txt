@@ -160,6 +160,7 @@ kitty
 krita
 libinput-gestures
 libnotify
+libreoffice-fresh
 libtool
 linux
 linux-firmware
