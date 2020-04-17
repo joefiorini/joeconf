@@ -158,7 +158,6 @@ keyfuzz
 khal
 kitty
 krita
-libgnomecanvas
 libinput-gestures
 libnotify
 libtool
@@ -324,6 +323,7 @@ xfwm4
 xfwm4-themes
 xorg-server-xwayland
 xorg-xev
+xournal
 yarn
 yay
 ydotool-git
