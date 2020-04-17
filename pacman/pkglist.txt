@@ -171,7 +171,6 @@ macchanger
 make
 mako
 man-db
-masterpdfeditor
 mono
 mousetweaks
 msbuild-stable
