@@ -171,6 +171,7 @@ macchanger
 make
 mako
 man-db
+masterpdfeditor
 mono
 mousetweaks
 msbuild-stable
@@ -208,7 +209,6 @@ pacmatic
 pacolog
 pamixer
 patch
-patchelf
 pavucontrol
 pencil
 pkgconf
