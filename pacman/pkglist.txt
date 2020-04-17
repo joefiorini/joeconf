@@ -150,6 +150,7 @@ inetutils
 informant
 insomnia
 intel-ucode
+intltool
 iw
 jome-git
 joyutils
@@ -158,6 +159,7 @@ keyfuzz
 khal
 kitty
 krita
+libart-lgpl
 libinput-gestures
 libnotify
 libtool
