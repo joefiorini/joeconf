@@ -208,6 +208,7 @@ pacmatic
 pacolog
 pamixer
 patch
+patchelf
 pavucontrol
 pencil
 pkgconf
