@@ -148,6 +148,7 @@ imv
 incron
 inetutils
 informant
+inkscape
 insomnia
 intel-ucode
 iw
