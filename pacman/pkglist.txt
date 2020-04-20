@@ -179,6 +179,7 @@ msbuild-stable
 nano
 nasm
 nautilus
+ncurses5-compat-libs
 neofetch
 neovim
 nerd-fonts-complete
