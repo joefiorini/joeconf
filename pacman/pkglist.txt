@@ -153,6 +153,8 @@ inkscape
 insomnia
 intel-ucode
 iw
+java-environment-common
+jdk-openjdk
 jome-git
 joyutils
 kanshi
