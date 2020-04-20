@@ -3,6 +3,7 @@ akira-git
 alacritty
 alsa-utils
 android-emulator
+android-sdk
 arc-firefox-theme
 arc-gtk-theme
 arc-icon-theme
@@ -153,8 +154,6 @@ inkscape
 insomnia
 intel-ucode
 iw
-java-environment-common
-jdk-openjdk
 jome-git
 joyutils
 kanshi
