@@ -2,6 +2,7 @@
 akira-git
 alacritty
 alsa-utils
+android-emulator
 arc-firefox-theme
 arc-gtk-theme
 arc-icon-theme
@@ -179,7 +180,6 @@ msbuild-stable
 nano
 nasm
 nautilus
-ncurses5-compat-libs
 neofetch
 neovim
 nerd-fonts-complete
