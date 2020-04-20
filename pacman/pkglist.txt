@@ -3,7 +3,7 @@ akira-git
 alacritty
 alsa-utils
 android-emulator
-android-sdk
+android-sdk-platform-tools
 arc-firefox-theme
 arc-gtk-theme
 arc-icon-theme
