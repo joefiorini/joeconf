@@ -264,6 +264,7 @@ swayidle
 swaylock
 swaylock-blur-bin
 syslog-ng
+system-config-printer
 systemd-manager
 taskell-bin
 terminus-font
