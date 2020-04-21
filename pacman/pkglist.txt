@@ -254,7 +254,6 @@ snapd
 sound-theme-smooth
 spotify
 spotifyd-bin-full
-squid
 stanza
 steamcmd
 sudo
