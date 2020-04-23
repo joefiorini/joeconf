@@ -328,7 +328,7 @@ xfwm4
 xfwm4-themes
 xorg-server-xwayland
 xorg-xev
-xournal
+xournalpp
 yarn
 yay
 ydotool-git
