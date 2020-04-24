@@ -2,7 +2,9 @@
 akira-git
 alacritty
 alsa-utils
+anbox-git
 anbox-image-gapps
+anbox-modules-dkms-git
 android-emulator
 android-studio
 android-x86-64-system-image
@@ -219,7 +221,6 @@ pencil
 pkgconf
 playerctl
 polkit-gnome
-properties-cpp
 pulseaudio-alsa
 python-libevdev
 python-pip
