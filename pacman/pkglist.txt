@@ -24,6 +24,7 @@ bison
 blueman
 bluez
 bluez-utils
+boost
 brightnessctl
 broadcom-wl
 broot
@@ -129,6 +130,7 @@ gparted
 graphviz
 grilo-plugins
 grim
+gtest
 gtk-engine-murrine
 gvfs
 gvfs-afc
@@ -170,7 +172,9 @@ linux
 linux-firmware
 lsdesktopf
 lxappearance
+lxc
 ly
+lzip
 m4
 macchanger
 make
@@ -247,6 +251,7 @@ scratch
 scribus
 sddm
 sdl2-jstest-git
+sdl2_image
 simple-scan
 slack-desktop
 slurp
