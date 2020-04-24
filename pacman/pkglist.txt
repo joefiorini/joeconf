@@ -219,6 +219,7 @@ pencil
 pkgconf
 playerctl
 polkit-gnome
+properties-cpp
 pulseaudio-alsa
 python-libevdev
 python-pip
