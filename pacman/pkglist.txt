@@ -241,7 +241,7 @@ ripgrep
 rlwrap
 rofi
 rsync
-ruby-archive-tar-minitar
+ruby-io-like
 rustup
 rx-bin
 rygel
