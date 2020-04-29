@@ -241,7 +241,7 @@ ripgrep
 rlwrap
 rofi
 rsync
-ruby-clamp
+ruby-childprocess
 rustup
 rx-bin
 rygel
