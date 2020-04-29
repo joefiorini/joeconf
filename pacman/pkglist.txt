@@ -8,7 +8,6 @@ anbox-modules-dkms-git
 android-emulator
 android-studio
 android-x86-64-system-image
-arc-firefox-theme
 arc-gtk-theme
 arc-icon-theme
 archlinux-wallpaper
@@ -71,7 +70,6 @@ fakeroot
 fcron
 figlet
 file-roller
-firefox
 fish
 flatpak
 flex
