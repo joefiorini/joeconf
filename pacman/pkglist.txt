@@ -241,7 +241,7 @@ ripgrep
 rlwrap
 rofi
 rsync
-ruby-xz
+ruby-dotenv
 rustup
 rx-bin
 rygel
