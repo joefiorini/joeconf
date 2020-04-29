@@ -241,7 +241,7 @@ ripgrep
 rlwrap
 rofi
 rsync
-ruby-pleaserun
+ruby-coderay
 rustup
 rx-bin
 rygel
