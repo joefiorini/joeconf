@@ -90,7 +90,6 @@ gendesk
 github-cli-bin
 glew-wayland
 glfw-wayland
-glib2-docs
 gnome-backgrounds
 gnome-books
 gnome-boxes
@@ -132,7 +131,6 @@ gparted
 graphviz
 grilo-plugins
 grim
-gtk-doc
 gtk-engine-murrine
 gvfs
 gvfs-afc
@@ -224,9 +222,7 @@ pkgconf
 playerctl
 polkit-gnome
 pulseaudio-alsa
-python-anytree
 python-libevdev
-python-lxml
 python-pip
 python-pynvim
 python-pyudev
