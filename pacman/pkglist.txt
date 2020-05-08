@@ -45,6 +45,7 @@ cmatrix
 code
 coreterminal
 d-feet
+deno-bin
 dex
 dhcpcd
 dialog
