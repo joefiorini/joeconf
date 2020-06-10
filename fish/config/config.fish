@@ -4,6 +4,16 @@ set -x NODE_OPTIONS --max-old-space-size=8192
 
 set -x REVIEW_BASE develop
 
+set -x MSBuildSDKsPath /usr/share/dotnet/sdk/(dotnet --version)/Sdks
+
+function auto_nvm --on-variable PWD
+  if test -f $PWD/.nvmrc
+    nvm < .nvmrc
+  else
+    nvm unuse
+  end
+end
+
 if test -d $HOME/bin
   set -a PATH $HOME/bin
 end
@@ -34,5 +44,12 @@ if test -d $HOME/.cargo
   set -a PATH $HOME/.cargo/bin
 end
 
-set -x YVM_DIR /home/joe/.yvm
-. $YVM_DIR/yvm.fish
+set extraterm_path (which extraterm)
+if test -x $extraterm_path
+  source $HOME/.config/fish/setup_extraterm_fish.fish
+end
+
+if test -d /usr/lib/node_modules/npm
+  set -a PATH "$HOME/.node_modules/bin"
+  set -x npm_config_prefix ~/.node_modules
+end

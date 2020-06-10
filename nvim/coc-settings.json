@@ -7,10 +7,11 @@
   "eslint.packageManager": "yarn",
   "eslint.trace.server": "verbose",
   "suggest.echodocSupport": true,
-  "suggest.timeout": 500,
+  "typescript.updateImportsOnFileMove.enable": true,
+  "suggest.timeout": 5000,
   "suggest.acceptSuggestionOnCommitCharacter": true,
   "project.enable": true,
-  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "css", "json", "javascript", "graphql", "markdown", "typescript.tsx", "reason", "c", "cpp", "rust", "haskell"],
+  "coc.preferences.formatOnSaveFiletypes": ["typescript", "typescriptreact", "css", "json", "javascript", "javascriptreact", "graphql", "markdown", "typescript.tsx", "reason", "c", "cpp", "rust", "haskell"],
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "rust.clippy_preference": "opt-in",
   "jest.terminalPosition": "bottom",
@@ -31,17 +32,14 @@
     "enable": true,
     "location": "separateLine"
   },
+  "reason_language_server.per_value_codelens": true,
+  "reason_language_server.dependencies_codelens": true,
+  "reason_language_server.opens_codelens": true,
+  "reason_language_server.useOldDuneProcess": false,
+  "reason_language_server.show_debug_errors": false,
+  "reason_language_server.location": "/src/reason-playground/reason-language-server/bin.exe",
   "git.enableGutters": false,
   "languageserver": {
-    "reason": {
-      "command": "/opt/bin/reason-language-server",
-      "filetypes": ["reason"],
-      "settings": {
-        "per_value_codelens": true,
-        "dependencies_codelens": true,
-        "opens_codelens": true
-      }
-    },
     "ccls": {
       "command": "ccls",
       "args": ["-v=1", "--log-file=/home/joe/.local/var/log/ccls.log"],
@@ -73,6 +71,11 @@
           "formattingProvider": "brittany"
         }
       }
-    }
+    },
+     "ocaml": {
+       "command": "ocaml-language-server",
+       "args": ["--stdio"],
+       "filetypes": ["ocaml"]
+     }
   }
 }

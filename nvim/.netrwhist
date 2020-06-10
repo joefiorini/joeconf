@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/src/joeconf/pacman'
+let g:netrw_dirhist_6='/usr/share/X11/xorg.conf.d'
+let g:netrw_dirhist_5='/home/joe/Unity/Hub/Editor/2018.4.19f1/Editor/Data/Resources/PackageManager/Server'
+let g:netrw_dirhist_4='/src/pillclub/web-infrastructure/sites/apps'
+let g:netrw_dirhist_3='/src/pillclub/web-infrastructure/core/components/CircularProgress'
+let g:netrw_dirhist_2='/src/reason-playground/reason-language-server/examples/example-opam-dune-project/src/bin'
+let g:netrw_dirhist_1='/src/reason-playground/reason-language-server/examples/example-opam-dune-project/src/lib'
+let g:netrw_dirhist_0='/src/reason-playground/reason-language-server/examples/example-opam-dune-project/src'
+let g:netrw_dirhist_9='/src/reason-playground/reason-language-server/examples/example-opam-dune-project'
+let g:netrw_dirhist_8='/src/reason-playground/reason-language-server/examples'

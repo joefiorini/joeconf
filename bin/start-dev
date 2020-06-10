@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 swaymsg for_window [app_id="devel-scratch"] move to scratchpad
-swaymsg exec "\$term --working-directory $1 --class devel-scratch"
-swaymsg exec "\$term --working-directory $1"
+swaymsg exec "\$term --directory $1 --class devel-scratch"
+fish -C "cd $1"

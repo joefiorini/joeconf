@@ -49,7 +49,7 @@ set wildmenu                  "make tab completion act more like bash
 set wildmode=list:longest     "complete first match when multiple matches
 set completeopt=menu,longest
 set wildignorecase
-set wildignore+=*test.ts,*test.tsx,*stories.tsx
+set wildignore+=*test.ts,*test.tsx,*stories.tsx,*bs.js
 
 set switchbuf=useopen         "don't reopen already opened buffers
 
@@ -239,8 +239,23 @@ let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
 let g:vista#renderer#enable_icon = 1
 let g:vista_sidebar_width = 50
 
-let g:comfortable_motion_friction = 50.0
-let g:comfortable_motion_air_drag = 1.0
+let g:comfortable_motion_friction = 100.0
+let g:comfortable_motion_air_drag = 2.0
+
+let g:comfortable_motion_no_default_key_mappings = 1
+let g:comfortable_motion_impulse_multiplier = 3  " Feel free to increase/decrease this value.
+
+function! ComfortableScroll(velocity)
+ :call comfortable_motion#flick(g:comfortable_motion_impulse_multiplier * winheight(0) * a:velocity) 
+endfunction
+
+nnoremap <silent> <C-d> :call ComfortableScroll(2)<CR>
+nnoremap <silent> <C-u> :call ComfortableScroll(-2)<CR>
+nnoremap <silent> <C-f> :call ComfortableScroll(4)<CR>
+nnoremap <silent> <C-b> :call ComfortableScroll(-4)<CR>
+noremap <silent> <ScrollWheelDown> :call ComfortableScroll(0.5)<CR>
+noremap <silent> <ScrollWheelUp>   :call ComfortableScroll(-0.5)<CR>
+
 
 function! s:open_terminal()
   let newSize = &lines > 70 ? 20 : 10
@@ -256,13 +271,10 @@ command! -nargs=0 ReloadVimConfig :source ~/.config/nvim/init.vim
 command! -nargs=0 OpenTerminal :call <SID>open_terminal()
 "nnoremap <silent> <space>` :OpenTerminal<cr>
 
-noremap <silent> <ScrollWheelDown> :call comfortable_motion#flick(80)<CR>
-noremap <silent> <ScrollWheelUp>   :call comfortable_motion#flick(-80)<CR>
-
-" == VIMPLUG END ================================
-" == AUTOCMD ================================
-" by default .ts file are not identified as typescript and .tsx files are not
-" identified as typescript react file, so add following
+" == VIMPLUG END ================================ == AUTOCMD
+" ================================ by default .ts file are not identified as
+" typescript and .tsx files are not identified as typescript react file, so add
+" following
 au BufNewFile,BufRead *.ts setlocal filetype=typescript
 au BufNewFile,BufRead *.tsx setlocal filetype=typescript.tsx
 " == AUTOCMD END ================================
@@ -415,6 +427,7 @@ let g:pear_tree_smart_openers = v:true
 let g:pear_tree_smart_closers = v:true
 let g:pear_tree_smart_backspace = v:true
 let g:pear_tree_map_special_keys = 0
+let g:pear_tree_ft_disabled = ['text', 'markdown', 'ocaml', 'reason']
 
 autocmd BufRead * call ApplyCRBinding()
 
@@ -423,21 +436,6 @@ autocmd BufRead * call ApplyCRBinding()
 set timeoutlen=500
 
 let g:which_key_map =  {}
-
-function! GrepFiles(args)
-  let original_grep_opts = deepcopy(get(g:, 'clap_provider_grep_opts', ''))
-  let g:clap_provider_grep_opts = original_grep_opts . ' ' . a:args
-  Clap grep
-  let g:clap_provider_grep_opts = original_grep_opts
-endfunction
-
-command! -nargs=+ GrepFiles call GrepFiles(<q-args>)
-
-function! s:GrepArgs(...)
-  let list = ['-S', '-smartcase', '-i', '-ignorecase', '-w', '-word',
-        \ '-e', '-regex', '-u', '-skip-vcs-ignores', '-t', '-extension']
-  return join(list, "\n")
-endfunction
 
 let g:startify_fortune_use_unicode = 1
 
@@ -490,7 +488,7 @@ autocmd TermOpen * setlocal nonumber norelativenumber
 "call coc#add_command('jf.openTerminal', 'OpenTerminal', 'Opens a terminal in a lower split window')
 "call coc#add_command('jf.toggleFileExplorer', 'toggleNetrw', 'Toggle the file explorer drawer')
 "call coc#add_command('jf.makeComponentFolder', 'MakeComponentFolder', 'Using current file name as the component name, make a new directory for the component & related files, and export from index.{ts,js}')
-nnoremap <D-p> :FuzzyOpen<CR>
+nnoremap <D-p> :FuzzyOpen<CR>timer_start
 nnoremap <leader>e :FuzzyOpen<CR>
 nnoremap <leader><leader> <C-^>
 
