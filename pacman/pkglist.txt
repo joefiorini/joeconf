@@ -299,12 +299,10 @@ vulkan-intel
 watchman
 way-cooler-git
 waybar-git
-wayfire-git
 wayland-log-reader-git
 wayland-wall-git
 weston
 wf-recorder-git
-wf-shell-git
 wget
 which
 wl-clipboard
