@@ -35,7 +35,6 @@ ccls-git
 checkupdates-aur
 cheese
 chrome-gnome-shell-git
-circleci-cli-bin
 clib
 cmake
 cmatrix
