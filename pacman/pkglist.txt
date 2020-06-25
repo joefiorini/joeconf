@@ -123,7 +123,6 @@ gnome-video-effects
 gnome-weather
 gnu-netcat
 google-chrome
-google-chrome-beta
 gparted
 graphviz
 grilo-plugins
