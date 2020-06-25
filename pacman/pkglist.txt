@@ -194,7 +194,6 @@ ngrok
 nodejs-serverless
 notify-desktop-git
 nvimpager-git
-obs-gnome-screencast
 obs-studio
 ocaml
 opam
