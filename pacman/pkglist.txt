@@ -5,9 +5,6 @@ alsa-utils
 anbox-git
 anbox-image-gapps
 anbox-modules-dkms-git
-android-emulator
-android-studio
-android-x86-64-system-image
 arc-gtk-theme
 arc-icon-theme
 archlinux-wallpaper
