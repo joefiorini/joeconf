@@ -245,6 +245,7 @@ scratch
 scribus
 sddm
 sdl2-jstest-git
+simavr
 simple-scan
 slack-desktop
 slurp
