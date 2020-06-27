@@ -13,6 +13,7 @@ asciiquarium
 aspell-en
 autoconf
 automake
+avr-libc
 aws-cli
 baobab
 base
