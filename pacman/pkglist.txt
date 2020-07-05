@@ -179,6 +179,7 @@ make
 mako
 man-db
 mono
+moserial
 mousetweaks
 msbuild-stable
 nano
