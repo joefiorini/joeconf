@@ -87,7 +87,7 @@ gdm
 gebaar-libinput-git
 gedit
 gendesk
-github-cli-bin
+github-cli
 glew-wayland
 glfw-wayland
 gnome-backgrounds
