@@ -26,7 +26,6 @@ bison
 blueman
 bluez
 bluez-utils
-boost
 brightnessctl
 broadcom-wl
 broot
@@ -59,6 +58,7 @@ docker-compose
 dotnet-sdk
 downgrade
 duc
+editline
 elinks
 elvish-bin
 eog
