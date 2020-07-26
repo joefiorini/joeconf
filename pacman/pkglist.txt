@@ -302,7 +302,6 @@ vlc
 vulkan-intel
 watchman
 way-cooler-git
-waybar-git
 wayland-log-reader-git
 wayland-wall-git
 weston
