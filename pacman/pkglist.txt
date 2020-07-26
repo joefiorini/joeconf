@@ -246,6 +246,7 @@ rustup
 rx-bin
 rygel
 scala
+scdoc
 scratch
 scribus
 sddm
