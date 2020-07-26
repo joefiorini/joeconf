@@ -126,6 +126,7 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
+gobject-introspection
 google-chrome
 gparted
 graphviz
@@ -156,6 +157,7 @@ informant
 inkscape
 insomnia
 intel-ucode
+itstool
 iw
 jdk8-openjdk
 jome-git
@@ -222,7 +224,9 @@ pkgconf
 playerctl
 polkit-gnome
 pulseaudio-alsa
+python-beaker
 python-libevdev
+python-mako
 python-pip
 python-pynvim
 python-pyudev
@@ -295,6 +299,7 @@ unityhub
 unzip
 upower
 v4l2loopback-dkms-git
+vala
 valgrind
 vdirsyncer
 vino
