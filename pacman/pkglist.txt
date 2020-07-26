@@ -131,7 +131,6 @@ gparted
 graphviz
 grilo-plugins
 grim
-group-service
 gtk-engine-murrine
 gvfs
 gvfs-afc
