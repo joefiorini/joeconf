@@ -196,7 +196,6 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 ngrok
-nix
 notify-desktop-git
 nvimpager-git
 obs-studio
