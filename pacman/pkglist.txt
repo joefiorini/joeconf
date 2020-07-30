@@ -31,6 +31,7 @@ brightnessctl
 broadcom-wl
 broot
 btrfs-progs
+cabal-install
 cairo-ubuntu
 calc
 camunda-modeler
@@ -88,6 +89,7 @@ gdm
 gebaar-libinput-git
 gedit
 gendesk
+ghc
 github-cli
 glew-wayland
 glfw-wayland
@@ -140,6 +142,14 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+haskell-cryptohash-sha256
+haskell-echo
+haskell-ed25519
+haskell-edit-distance
+haskell-hackage-security
+haskell-lukko
+haskell-resolv
+haskell-tar
 hdparm
 hfsprogs
 htop
