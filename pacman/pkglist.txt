@@ -166,6 +166,7 @@ keyfuzz
 khal
 kitty
 krita
+libgit2
 libinput-gestures
 libnotify
 libreoffice-fresh
