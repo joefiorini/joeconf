@@ -279,7 +279,6 @@ texinfo
 the_silver_searcher
 thunar
 thunar-volman
-tig
 time
 totem
 traceroute
