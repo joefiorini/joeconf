@@ -89,6 +89,7 @@ gebaar-libinput-git
 gedit
 gendesk
 github-cli
+gitui-bin
 glew-wayland
 glfw-wayland
 gnome-backgrounds
@@ -166,7 +167,6 @@ keyfuzz
 khal
 kitty
 krita
-libgit2
 libinput-gestures
 libnotify
 libreoffice-fresh
