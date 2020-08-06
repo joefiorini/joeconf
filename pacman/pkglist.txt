@@ -36,7 +36,6 @@ calc
 camunda-modeler
 cbatticon
 ccls-git
-check
 checkupdates-aur
 cheese
 chrome-gnome-shell-git
@@ -241,7 +240,7 @@ remind
 retext
 ripgrep
 rlwrap
-rofi
+rofi-lbonn-wayland-git
 rsync
 rustup
 rx-bin
