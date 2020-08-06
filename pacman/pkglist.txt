@@ -36,6 +36,7 @@ calc
 camunda-modeler
 cbatticon
 ccls-git
+check
 checkupdates-aur
 cheese
 chrome-gnome-shell-git
