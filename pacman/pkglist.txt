@@ -161,7 +161,6 @@ iw
 jdk8-openjdk
 jome-git
 joyutils
-kakoune
 kanshi
 keyfuzz
 khal
