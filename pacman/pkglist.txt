@@ -168,7 +168,6 @@ krita
 libinput-gestures
 libnotify
 libreoffice-fresh
-libspnav
 libtool
 linux
 linux-firmware
@@ -196,6 +195,7 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 ngrok
+nlohmann-json
 notify-desktop-git
 nvimpager-git
 obs-studio
