@@ -90,7 +90,6 @@ gedit
 gendesk
 github-cli
 gitui-bin
-glew
 glfw-wayland
 gnome-backgrounds
 gnome-books
@@ -169,6 +168,7 @@ krita
 libinput-gestures
 libnotify
 libreoffice-fresh
+libspnav
 libtool
 linux
 linux-firmware
