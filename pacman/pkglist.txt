@@ -5,6 +5,7 @@ alsa-utils
 anbox-git
 anbox-image-gapps
 anbox-modules-dkms-git
+appstream
 arc-gtk-theme
 arc-icon-theme
 archlinux-nix-git
@@ -15,6 +16,7 @@ artwiz-fonts
 asciiquarium
 aspell-en
 autoconf
+autoconf-archive
 automake
 avr-libc
 aws-cli
@@ -27,6 +29,7 @@ bison
 blueman
 bluez
 bluez-utils
+boost
 brightnessctl
 broadcom-wl
 broot
@@ -36,6 +39,7 @@ calc
 camunda-modeler
 cbatticon
 ccls-git
+check
 checkupdates-aur
 cheese
 chrome-gnome-shell-git
@@ -99,6 +103,7 @@ gnome-calendar
 gnome-characters
 gnome-clocks
 gnome-color-manager
+gnome-common
 gnome-contacts
 gnome-control-center
 gnome-dictionary
@@ -126,6 +131,7 @@ gnome-user-share
 gnome-video-effects
 gnome-weather
 gnu-netcat
+gobject-introspection
 google-chrome
 gparted
 graphviz
@@ -133,6 +139,7 @@ greetd
 greetd-gtkgreet
 grilo-plugins
 grim
+gtest
 gtk-engine-murrine
 gvfs
 gvfs-afc
@@ -158,6 +165,8 @@ informant
 inkscape
 insomnia
 intel-ucode
+intltool
+itstool
 iw
 jdk8-openjdk
 jome-git
@@ -180,6 +189,7 @@ m4
 macchanger
 make
 mako
+mallard-ducktype
 man-db
 mono
 moserial
@@ -222,7 +232,9 @@ pkgconf
 playerctl
 polkit-gnome
 pulseaudio-alsa
+python-beaker
 python-libevdev
+python-mako
 python-pip
 python-pynvim
 python-pyudev
@@ -231,6 +243,7 @@ python-websocket-client
 python-z3
 python2-pynvim
 qcad
+qt5-serialport
 qt5-wayland
 qterminal
 qutebrowser
@@ -296,6 +309,7 @@ unityhub
 unzip
 upower
 v4l2loopback-dkms-git
+vala
 valgrind
 vdirsyncer
 vino
@@ -336,6 +350,7 @@ xournalpp
 yarn
 yay
 ydotool-git
+yelp-tools
 z3
 zoom
 zopfli
