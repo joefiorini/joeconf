@@ -129,6 +129,7 @@ gnu-netcat
 google-chrome
 gparted
 graphviz
+greetd
 grilo-plugins
 grim
 gtk-engine-murrine
@@ -244,7 +245,6 @@ rustup
 rx-bin
 rygel
 scala
-scdoc
 scratch
 scribus
 sddm
