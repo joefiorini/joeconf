@@ -195,7 +195,6 @@ network-manager-applet
 networkmanager
 networkmanager-openvpn
 ngrok
-nlohmann-json
 notify-desktop-git
 nvimpager-git
 obs-studio
@@ -245,6 +244,7 @@ rustup
 rx-bin
 rygel
 scala
+scdoc
 scratch
 scribus
 sddm
