@@ -130,6 +130,7 @@ google-chrome
 gparted
 graphviz
 greetd
+greetd-gtkgreet
 grilo-plugins
 grim
 gtk-engine-murrine
