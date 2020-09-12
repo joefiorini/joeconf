@@ -27,7 +27,6 @@ bison
 blueman
 bluez
 bluez-utils
-breezy
 brightnessctl
 broadcom-wl
 broot
@@ -222,9 +221,9 @@ pencil
 pkgconf
 playerctl
 polkit-gnome
+properties-cpp
 pulseaudio-alsa
 python-libevdev
-python-patiencediff
 python-pip
 python-pynvim
 python-pyudev
