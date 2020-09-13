@@ -84,6 +84,7 @@ fzy
 garcon
 gcc
 gdb
+gdk-pixbuf
 gdm
 gebaar-libinput-git
 gedit
@@ -133,7 +134,6 @@ greetd
 greetd-gtkgreet
 grilo-plugins
 grim
-gtk
 gtk-engine-murrine
 gvfs
 gvfs-afc
