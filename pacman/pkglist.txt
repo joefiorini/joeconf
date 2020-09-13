@@ -221,7 +221,6 @@ pencil
 pkgconf
 playerctl
 polkit-gnome
-properties-cpp
 pulseaudio-alsa
 python-libevdev
 python-pip
@@ -242,7 +241,7 @@ remind
 retext
 ripgrep
 rlwrap
-rofi-lbonn-wayland-git
+rofi
 rsync
 rustup
 rx-bin
