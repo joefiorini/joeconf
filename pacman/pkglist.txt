@@ -91,7 +91,6 @@ gendesk
 github-cli
 gitui-bin
 glfw-wayland
-glib
 gnome-backgrounds
 gnome-books
 gnome-boxes
@@ -134,6 +133,7 @@ greetd
 greetd-gtkgreet
 grilo-plugins
 grim
+gtk
 gtk-engine-murrine
 gvfs
 gvfs-afc
