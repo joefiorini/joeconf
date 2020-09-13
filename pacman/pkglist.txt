@@ -215,6 +215,7 @@ otf-unna
 pacman-contrib
 pacmatic
 pacolog
+pacutils
 pamixer
 patch
 pavucontrol
