@@ -199,6 +199,7 @@ networkmanager-openvpn
 ngrok
 notify-desktop-git
 nvimpager-git
+nwg-launchers
 obs-studio
 ocaml
 opam
