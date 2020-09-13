@@ -91,6 +91,7 @@ gendesk
 github-cli
 gitui-bin
 glfw-wayland
+glib
 gnome-backgrounds
 gnome-books
 gnome-boxes
