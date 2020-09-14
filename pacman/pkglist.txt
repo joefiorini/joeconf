@@ -118,6 +118,7 @@ macchanger
 make
 mako
 man-db
+mlocate
 mono
 msbuild-stable
 nano
