@@ -84,6 +84,7 @@ fzy
 garcon
 gcc
 gdb
+gdk-pixbuf
 gdm
 gebaar-libinput-git
 gedit
