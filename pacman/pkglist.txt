@@ -231,6 +231,7 @@ which
 wl-clipboard
 wld-git
 wlrobs-hg
+wofi
 wpa_supplicant
 xboxdrv
 xdg-user-dirs
