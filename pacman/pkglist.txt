@@ -79,6 +79,7 @@ graphviz
 greetd
 grim
 gtk-engine-murrine
+gtk3
 hdparm
 hfsprogs
 htop
