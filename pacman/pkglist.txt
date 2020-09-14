@@ -79,6 +79,7 @@ gnu-netcat
 graphviz
 greetd
 grim
+grub
 gtk-engine-murrine
 gtk3
 hdparm
