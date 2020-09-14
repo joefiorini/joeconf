@@ -122,6 +122,7 @@ man-db
 mlocate
 mono
 msbuild-stable
+musl
 nano
 nasm
 neofetch
