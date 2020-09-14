@@ -79,6 +79,7 @@ greetd
 grim
 gtk-engine-murrine
 gtk3
+gtkmm3
 hdparm
 hfsprogs
 htop
@@ -130,6 +131,7 @@ netctl
 networkmanager
 networkmanager-openvpn
 ngrok
+nlohmann-json
 notify-desktop-git
 nvimpager-git
 obs-studio
