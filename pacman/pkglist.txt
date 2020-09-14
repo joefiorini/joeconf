@@ -37,7 +37,6 @@ clib
 cmake
 cmatrix
 coreterminal
-deno-bin
 dex
 dhcpcd
 dialog
