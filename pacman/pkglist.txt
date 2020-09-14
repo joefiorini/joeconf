@@ -167,6 +167,7 @@ python-websocket-client
 python-z3
 python2-pynvim
 qcad
+qemu
 qt5-wayland
 qterminal
 qutebrowser
