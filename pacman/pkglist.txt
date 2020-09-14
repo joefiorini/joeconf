@@ -28,6 +28,7 @@ brightnessctl
 broadcom-wl
 broot
 btrfs-progs
+busybox
 cairo-ubuntu
 calc
 camunda-modeler
