@@ -134,6 +134,7 @@ netctl
 networkmanager
 networkmanager-openvpn
 ngrok
+nm-connection-editor
 notify-desktop-git
 nvimpager-git
 nwg-launchers
