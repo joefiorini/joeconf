@@ -225,6 +225,7 @@ upower
 v4l2loopback-dkms-git
 valgrind
 vdirsyncer
+virt-manager
 vlc
 vulkan-intel
 watchman
