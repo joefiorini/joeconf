@@ -79,6 +79,7 @@ gnome-video-effects
 gnu-netcat
 graphviz
 greetd
+greetd-gtkgreet
 grim
 grub
 gtk-engine-murrine
