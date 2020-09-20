@@ -39,6 +39,7 @@ cmake
 cmatrix
 coreterminal
 dex
+dhall-lsp-server-bin
 dhcpcd
 dialog
 dmidecode
