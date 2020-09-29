@@ -52,6 +52,7 @@ dotnet-sdk
 downgrade
 duc
 ebtables
+edk2-ovmf
 elinks
 elvish-bin
 evtest
