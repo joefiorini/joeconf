@@ -42,6 +42,7 @@ dex
 dhall-lsp-server-bin
 dhcpcd
 dialog
+discord
 dmidecode
 dnsmasq
 docbook-xml
@@ -95,6 +96,7 @@ i3lock
 i3status
 ical2rem
 imagemagick
+imake
 imv
 incron
 inetutils
