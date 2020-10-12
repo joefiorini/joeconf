@@ -38,6 +38,7 @@ clib
 cmake
 cmatrix
 coreterminal
+d-feet
 dex
 dhall-lsp-server-bin
 dhcpcd
