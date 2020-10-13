@@ -149,6 +149,7 @@ obs-studio
 ocaml
 opam
 opencl-headers
+openconnect
 openssh
 openttd
 openttd-opengfx
