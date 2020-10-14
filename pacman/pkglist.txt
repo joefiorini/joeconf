@@ -196,7 +196,6 @@ scala
 scratch
 scribus
 sddm
-sdl2-jstest-git
 simavr
 slurp
 snap-pac
