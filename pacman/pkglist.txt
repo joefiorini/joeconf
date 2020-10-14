@@ -117,6 +117,7 @@ libinput-gestures
 libnotify
 libreoffice-fresh
 libtool
+libwpe
 linux
 linux-firmware
 lsdesktopf
@@ -241,6 +242,7 @@ way-cooler-git
 waybar
 wayland-log-reader-git
 wayland-wall-git
+webkit2gtk
 weston
 wf-recorder-git
 wget
@@ -248,9 +250,12 @@ which
 wl-clipboard
 wld-git
 wlrobs-hg
+woff2
 wofi
 wpa_supplicant
+wpebackend-fdo
 xboxdrv
+xdg-dbus-proxy
 xdg-user-dirs
 xfconf
 xorg-server-xwayland
