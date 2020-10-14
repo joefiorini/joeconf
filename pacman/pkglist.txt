@@ -46,6 +46,10 @@ dialog
 discord
 dmidecode
 dnsmasq
+docbook-dsssl
+docbook-sgml
+docbook-sgml31
+docbook-utils
 docbook-xml
 docbook-xsl
 docker
@@ -81,6 +85,7 @@ gnome-menus
 gnome-remote-desktop
 gnome-video-effects
 gnu-netcat
+gperf
 graphviz
 greetd
 greetd-gtkgreet
@@ -113,15 +118,19 @@ keyfuzz
 khal
 kitty
 krita
+libbsd
 libinput-gestures
 libnotify
 libreoffice-fresh
+libsigsegv
+libsynctex
 libtool
 linux
 linux-firmware
 lsdesktopf
 lxappearance
 ly
+lynx
 m4
 macchanger
 make
@@ -150,6 +159,8 @@ ocaml
 opam
 opencl-headers
 openconnect
+openjade
+opensp
 openssh
 openttd
 openttd-opengfx
@@ -164,9 +175,11 @@ pacutils
 pamixer
 patch
 pencil
+perl-sgmls
 pkgconf
 playerctl
 polkit-gnome
+potrace
 pulseaudio-alsa
 python-libevdev
 python-pip
@@ -196,6 +209,7 @@ scala
 scratch
 scribus
 sddm
+sgml-common
 simavr
 slurp
 snap-pac
@@ -212,10 +226,14 @@ swayidle
 swaylock
 swaylock-blur-bin
 syslog-ng
+t1lib
 taskell-bin
 terminus-font
 testdisk
 texinfo
+texlive-bin
+texlive-core
+texlive-formatsextra
 the_silver_searcher
 time
 traceroute
@@ -253,6 +271,7 @@ wpa_supplicant
 xboxdrv
 xdg-user-dirs
 xfconf
+xfsprogs
 xorg-server-xwayland
 xorg-xev
 yarn
@@ -261,3 +280,4 @@ ydotool-git
 z3
 zoom
 zopfli
+zziplib
