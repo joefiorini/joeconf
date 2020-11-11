@@ -36,6 +36,7 @@ checkupdates-aur
 clib
 cmake
 cmatrix
+code
 coreterminal
 d-feet
 dex
