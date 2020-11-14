@@ -30,6 +30,8 @@ broot
 btrfs-progs
 busybox
 cairo-ubuntu
+caja
+caja-open-terminal
 calc
 ccls-git
 checkupdates-aur
