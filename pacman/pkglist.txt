@@ -105,6 +105,9 @@ imv
 incron
 inetutils
 informant
+intel-compute-runtime
+intel-graphics-compiler
+intel-opencl-clang
 intel-ucode
 iw
 jdk8-openjdk
@@ -136,10 +139,12 @@ kwayland-integration
 kwayland-server
 kwin
 kwrited
+lib32-libpng12
 libinput-gestures
 libkscreen
 libksysguard
 libnotify
+libpng12
 libreoffice-fresh
 libtool
 linux
@@ -174,6 +179,7 @@ nvimpager-git
 nwg-launchers
 obs-studio
 ocaml
+ocl-icd
 opam
 opencl-headers
 openconnect
@@ -221,6 +227,7 @@ python2-pynvim
 qcad
 qemu
 qt5-wayland
+qt5-websockets
 qterminal
 qutebrowser
 ranger
@@ -245,6 +252,7 @@ slurp
 snap-pac
 snapd
 sound-theme-smooth
+spirv-llvm-translator
 spotifyd-bin-full
 stanza
 steam
