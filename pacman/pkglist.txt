@@ -203,6 +203,7 @@ python-websocket-client
 python-z3
 python2-pynvim
 qcad
+qjackctl
 qt5-wayland
 qterminal
 ranger
