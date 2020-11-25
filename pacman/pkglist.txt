@@ -213,6 +213,7 @@ polkit-gnome
 polkit-kde-agent
 powerdevil
 pulseaudio-alsa
+pulseaudio-jack
 python-dbus
 python-libevdev
 python-pip
