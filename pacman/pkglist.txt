@@ -48,10 +48,6 @@ discord
 discover
 dmidecode
 dnsmasq
-docbook-dsssl
-docbook-sgml
-docbook-sgml31
-docbook-utils
 docbook-xml
 docbook-xsl
 docker
@@ -88,7 +84,6 @@ gnome-menus
 gnome-remote-desktop
 gnome-video-effects
 gnu-netcat
-gperf
 graphviz
 greetd
 greetd-gtkgreet
@@ -141,21 +136,17 @@ kwayland-integration
 kwayland-server
 kwin
 kwrited
-libbsd
 libinput-gestures
 libkscreen
 libksysguard
 libnotify
 libreoffice-fresh
-libsigsegv
-libsynctex
 libtool
 linux
 linux-firmware
 lsdesktopf
 lxappearance
 ly
-lynx
 m4
 macchanger
 make
@@ -187,9 +178,7 @@ ocaml
 opam
 opencl-headers
 openconnect
-openjade
 openshot
-opensp
 openssh
 openttd
 openttd-opengfx
@@ -205,7 +194,6 @@ pacutils
 pamixer
 patch
 pencil
-perl-sgmls
 pkgconf
 plasma-browser-integration
 plasma-desktop
@@ -222,7 +210,6 @@ plasma-workspace-wallpapers
 playerctl
 polkit-gnome
 polkit-kde-agent
-potrace
 powerdevil
 pulseaudio-alsa
 python-libevdev
@@ -239,6 +226,7 @@ qt5-wayland
 qterminal
 qutebrowser
 ranger
+realtime-privileges
 red
 reflector
 remind
@@ -255,7 +243,6 @@ scratch
 scribus
 sddm
 sddm-kcm
-sgml-common
 simavr
 slurp
 snap-pac
@@ -273,14 +260,10 @@ swaylock
 swaylock-blur-bin
 syslog-ng
 systemsettings
-t1lib
 taskell-bin
 terminus-font
 testdisk
 texinfo
-texlive-bin
-texlive-core
-texlive-formatsextra
 the_silver_searcher
 time
 traceroute
@@ -326,4 +309,3 @@ ydotool-git
 z3
 zopfli
 zsa-wally
-zziplib
