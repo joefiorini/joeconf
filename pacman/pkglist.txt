@@ -64,6 +64,7 @@ elvish-bin
 evtest
 extraterm-bin
 fakeroot
+fbset
 fcron
 figlet
 firefox
