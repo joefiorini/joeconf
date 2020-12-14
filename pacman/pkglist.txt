@@ -280,6 +280,7 @@ vdirsyncer
 vulkan-intel
 watchman
 way-cooler-git
+waybar
 wayland-log-reader-git
 wayland-wall-git
 weston
