@@ -166,6 +166,7 @@ nerd-fonts-jetbrains-mono
 net-tools
 netactview
 netctl
+networkmanager
 networkmanager-openvpn
 ngrok
 nmap
