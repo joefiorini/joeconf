@@ -145,6 +145,7 @@ libvncserver
 linux
 linux-firmware
 lsdesktopf
+lutris
 lxappearance
 ly
 m4
