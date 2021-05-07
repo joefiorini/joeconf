@@ -221,6 +221,7 @@ kwin
 kwrited
 lib32-vkd3d
 lib32-vulkan-icd-loader
+libffado
 libinput-gestures
 libkscreen
 libksysguard
