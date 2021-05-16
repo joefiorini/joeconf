@@ -290,6 +290,7 @@ pacutils
 paman
 pamixer
 patch
+pavucontrol
 pcmanfm-gtk3
 phototonic
 pkgconf
